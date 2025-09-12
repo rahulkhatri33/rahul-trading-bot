@@ -1,0 +1,577 @@
+2025-07-19 00:00:02 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+88    48617.682  3154.94  5.726       0.006188  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-19 00:00:02 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+88  3154.94    48617.682  5.726        6.448529  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-19 00:00:03 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+89    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711             -41.30962
+
+[1 rows x 15 columns]
+2025-07-19 00:00:03 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+89    3483.5112  524.22      286.469282  209.773  ...  63.023843   73.051708  119898.239216          0.001429
+
+[1 rows x 15 columns]
+2025-07-19 00:00:05 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+89  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-19 00:00:05 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+89  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-19 00:00:06 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+89  298191.1834  16502.852       0.030419         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-19 00:00:06 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+89  298191.1834  16502.852     14.003847  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-19 00:00:07 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+89  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-19 00:00:07 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+89  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-19 00:00:09 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope     ema_14
+89    1.1       3526.4   172.6          0.19        0.00098  ...   115.567027  84.199134  117.79       -4728.2  115.86609
+
+[1 rows x 15 columns]
+2025-07-19 00:00:09 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+89    1.1       3526.4        0.994081        0.00098  ...              0.017547         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-19 00:00:10 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+89  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132881  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-19 00:00:10 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+89  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014282
+
+[1 rows x 15 columns]
+2025-07-19 00:00:11 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+89  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-19 00:00:11 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+89  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-19 00:00:13 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+88   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-19 00:00:13 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+88   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-19 01:02:38 | ERROR | 🛑 1H WebSocket silent for 158.2s — restarting...
+2025-07-19 03:00:01 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+91   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-19 03:00:01 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+91   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-19 03:00:03 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+91    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-19 03:00:03 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+91  3154.94    48617.682  5.726        6.448535  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-19 03:00:04 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+91    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.309667
+
+[1 rows x 15 columns]
+2025-07-19 03:00:04 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev        ema_14  lower_wick_ratio
+91    3483.5112  524.22      286.469588  209.773  ...  63.023843   73.051708  119898.23891          0.001429
+
+[1 rows x 15 columns]
+2025-07-19 03:00:06 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+91  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-19 03:00:06 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+91  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-19 03:00:07 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+91  298191.1834  16502.852       0.030419         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-19 03:00:07 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+91  298191.1834  16502.852     14.003848  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-19 03:00:09 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+91  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-19 03:00:09 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+91  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-19 03:00:10 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+91    1.1       3526.4   172.6          0.19        0.00098  ...   115.567026  84.199134  117.79       -4728.2  115.866089
+
+[1 rows x 15 columns]
+2025-07-19 03:00:10 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+91    1.1       3526.4        0.994081        0.00098  ...              0.017547         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-19 03:00:12 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+91  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132882  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-19 03:00:12 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+91  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014282
+
+[1 rows x 15 columns]
+2025-07-19 03:00:13 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+91  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-19 03:00:13 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+91  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-19 03:00:15 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+90   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-19 03:00:15 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+90   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-19 04:01:21 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:01:22 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:01:22 | CRITICAL | ❌ Scalper cycle error for BTCUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:01:23 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:01:24 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:01:40 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:01:43 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:01:44 | CRITICAL | ❌ Scalper cycle error for BTCUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:01:44 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:01:45 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:01 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:01 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:02 | CRITICAL | ❌ Scalper cycle error for BTCUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:03 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:03 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:19 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:20 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:21 | CRITICAL | ❌ Scalper cycle error for BTCUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:21 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:22 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:38 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:38 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:39 | CRITICAL | ❌ Scalper cycle error for BTCUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:40 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:41 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:56 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:57 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:58 | CRITICAL | ❌ Scalper cycle error for BTCUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:58 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:02:59 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:03:15 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:08:08 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:08:08 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:08:09 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:08:09 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:08:10 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:08:25 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:08:27 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:08:27 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:08:28 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:08:28 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:08:44 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:08:45 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:08:45 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:08:46 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:08:46 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:09:02 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:09:03 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:09:03 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:09:03 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:09:04 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:09:20 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:09:21 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:09:21 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:09:22 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:09:22 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:09:38 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:09:39 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:09:39 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:09:39 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:09:40 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:09:56 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:09:56 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:09:57 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:09:57 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:09:58 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:10:14 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:10:15 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:10:15 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:10:15 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:10:16 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:10:32 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:10:33 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:10:34 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:10:34 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:10:35 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:10:50 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:10:51 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:10:52 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:10:52 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:10:52 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:11:08 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:11:09 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:11:09 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:11:10 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:11:10 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:11:26 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:11:27 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:11:27 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:11:27 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:11:28 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:11:44 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:11:45 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:11:45 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:11:45 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:11:46 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:12:02 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:12:03 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:12:03 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:12:04 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:12:04 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:12:20 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:12:21 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:12:22 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:12:22 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:12:23 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:12:38 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:12:39 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:12:40 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:12:40 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:13:08 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:13:09 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:13:10 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:13:10 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:13:11 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:13:26 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:13:27 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:13:28 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:13:28 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:13:29 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:13:44 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:13:45 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:13:45 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:13:46 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:13:46 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:14:02 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:14:03 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:14:03 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:14:04 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:14:04 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:14:20 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:14:21 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:14:21 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:14:22 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:14:22 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:14:38 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:14:39 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:14:40 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:14:40 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:14:41 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:14:56 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:14:57 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:14:58 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:14:58 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:14:59 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:15:14 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:15:15 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:15:16 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:15:16 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:15:17 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:15:32 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:15:33 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:15:34 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:15:34 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:15:35 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:15:50 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:15:51 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:15:52 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:15:52 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:15:53 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:16:09 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: 'score'
+2025-07-19 04:16:09 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: 'score'
+2025-07-19 04:16:10 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:16:10 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: 'score'
+2025-07-19 04:16:11 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: 'score'
+2025-07-19 04:19:20 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:20 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:20 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:21 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:21 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:36 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:36 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:37 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:37 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:37 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:52 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:52 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:53 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:53 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:19:53 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:08 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:08 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:09 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:09 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:09 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:24 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:24 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:25 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:25 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:25 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:40 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:40 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:41 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:41 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:41 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:56 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:57 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:57 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:57 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:20:57 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:12 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:13 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:13 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:13 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:13 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:28 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:29 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:29 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:29 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:29 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:44 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:45 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:45 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:45 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:21:45 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:01 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:01 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:01 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:01 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:01 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:17 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:17 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:17 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:17 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:18 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:33 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:33 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:33 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:33 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:34 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:49 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:49 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:49 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:49 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:22:50 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:05 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:05 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:05 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:06 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:06 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:21 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:21 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:21 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:22 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:22 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:37 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:37 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:37 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:38 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:38 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:53 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:53 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:53 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:54 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:23:54 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:09 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:09 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:10 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:10 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:10 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:25 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:25 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:26 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:26 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:26 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:41 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:42 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:42 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:42 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:42 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:57 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:58 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:58 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:58 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:24:58 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:25:13 | ERROR | ❌ Trade request build error for ADAUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:25:14 | ERROR | ❌ Trade request build error for BNBUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:25:14 | ERROR | ❌ Trade request build error for BTCUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:25:14 | ERROR | ❌ Trade request build error for DOGEUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:25:14 | ERROR | ❌ Trade request build error for XRPUSDT-long: calculate_scalper_sl_tp() takes 3 positional arguments but 4 were given
+2025-07-19 04:39:02 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:03 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:04 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:39:04 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:04 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:20 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:21 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:21 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:39:22 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:22 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:38 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:39 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:40 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:39:40 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:41 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:56 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:57 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:58 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:39:58 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:39:58 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:40:14 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:40:15 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:40:15 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:40:16 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:40:18 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:40:34 | CRITICAL | ❌ Scalper cycle error for ADAUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:40:35 | CRITICAL | ❌ Scalper cycle error for BNBUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:40:36 | ERROR | ❌ Quantity too small after trimming for BTCUSDT-long.
+2025-07-19 04:40:36 | CRITICAL | ❌ Scalper cycle error for DOGEUSDT: build_trade_request() missing 1 required positional argument: 'df'
+2025-07-19 04:40:37 | CRITICAL | ❌ Scalper cycle error for XRPUSDT: build_trade_request() missing 1 required positional argument: 'df'

@@ -1,0 +1,109 @@
+2025-07-17 04:32:20 | INFO | ✅ recover_open_positions, successfully imported 
+2025-07-17 04:32:20 | INFO | 🔧 Starting open positions recovery process... 0 open positions found.
+2025-07-17 04:32:20 | INFO | ✅ Recovery complete: 0 positions repaired, 0 forced exits.
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\ADAUSDT\ADAUSDT_xgb_long.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\ADAUSDT\ADAUSDT_xgb_short.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\BNBUSDT\BNBUSDT_xgb_long.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\BNBUSDT\BNBUSDT_xgb_short.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\BTCUSDT\BTCUSDT_xgb_long.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\BTCUSDT\BTCUSDT_xgb_short.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\DOGEUSDT\DOGEUSDT_xgb_long.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\DOGEUSDT\DOGEUSDT_xgb_short.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\ETHUSDT\ETHUSDT_xgb_long.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\ETHUSDT\ETHUSDT_xgb_short.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\HBARUSDT\HBARUSDT_xgb_long.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\HBARUSDT\HBARUSDT_xgb_short.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\QNTUSDT\QNTUSDT_xgb_long.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\QNTUSDT\QNTUSDT_xgb_short.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\SOLUSDT\SOLUSDT_xgb_long.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\SOLUSDT\SOLUSDT_xgb_short.pkl
+2025-07-17 04:32:31 | INFO | 📦 Model loaded and cached: ml_models\XRPUSDT\XRPUSDT_xgb_long.pkl
+2025-07-17 04:32:32 | INFO | 📦 Model loaded and cached: ml_models\XRPUSDT\XRPUSDT_xgb_short.pkl
+2025-07-17 04:32:32 | INFO | 🚀 Booting 1 Hour Machine Learning models...
+2025-07-17 04:32:32 | INFO | ADAUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-17 04:32:32 | INFO | BNBUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-17 04:32:32 | INFO | BTCUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-17 04:32:33 | INFO | DOGEUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-17 04:32:33 | INFO | ETHUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-17 04:32:34 | INFO | HBARUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-17 04:32:34 | INFO | QNTUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-17 04:32:35 | INFO | SOLUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-17 04:32:35 | INFO | XRPUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-17 04:32:36 | INFO | ADAUSDT 🧭 Warming up rolling cache with 5 minute historical candles...
+2025-07-17 04:32:36 | INFO | BNBUSDT 🧭 Warming up rolling cache with 5 minute historical candles...
+2025-07-17 04:32:36 | INFO | BTCUSDT 🧭 Warming up rolling cache with 5 minute historical candles...
+2025-07-17 04:32:36 | INFO | DOGEUSDT 🧭 Warming up rolling cache with 5 minute historical candles...
+2025-07-17 04:32:36 | INFO | XRPUSDT 🧭 Warming up rolling cache with 5 minute historical candles...
+2025-07-17 04:32:36 | INFO |                                                                         built for profits ...🚀, with precision⏱  
+2025-07-17 04:32:36 | INFO | [ONCE] 📡 5M Scalper polling cycle started...
+2025-07-17 04:32:37 | INFO | 🧠 Launching 1H ML listener thread...
+2025-07-17 04:32:37 | INFO | 👁️ WebSocket Watchdog armed for 1H feed...
+2025-07-17 04:32:38 | INFO | 📡 [1H WS] Reconnected at 2025-07-17 11:32:38 UTC
+2025-07-17 05:00:00 | INFO | ⏳ 1H candle CLOSED | SOLUSDT @ 1752753599999
+2025-07-17 05:00:00 | INFO | ⏳ 1H candle CLOSED | ETHUSDT @ 1752753599999
+2025-07-17 05:00:00 | INFO | ⏳ 1H candle CLOSED | DOGEUSDT @ 1752753599999
+2025-07-17 05:00:00 | INFO | ⏳ 1H candle CLOSED | HBARUSDT @ 1752753599999
+2025-07-17 05:00:00 | INFO | ⏳ 1H candle CLOSED | ADAUSDT @ 1752753599999
+2025-07-17 05:00:00 | INFO | ⏳ 1H candle CLOSED | BTCUSDT @ 1752753599999
+2025-07-17 05:00:00 | INFO | ⏳ 1H candle CLOSED | XRPUSDT @ 1752753599999
+2025-07-17 05:00:00 | INFO | ⏳ 1H candle CLOSED | BNBUSDT @ 1752753599999
+2025-07-17 05:00:00 | INFO | ⏳ 1H candle CLOSED | QNTUSDT @ 1752753599999
+2025-07-17 05:09:13 | INFO | 📋 Lined-up trades for execution (1):
+2025-07-17 05:09:13 | INFO |   ↪ ADAUSDT-short | Conf: 0.36 | Entry: 0.7994 | Qty: 125.00 | Source: 5M_SCALPER
+2025-07-17 06:00:00 | INFO | ⏳ 1H candle CLOSED | DOGEUSDT @ 1752757199999
+2025-07-17 06:00:00 | INFO | ⏳ 1H candle CLOSED | XRPUSDT @ 1752757199999
+2025-07-17 06:00:00 | INFO | ⏳ 1H candle CLOSED | QNTUSDT @ 1752757199999
+2025-07-17 06:00:00 | INFO | ⏳ 1H candle CLOSED | BTCUSDT @ 1752757199999
+2025-07-17 06:00:00 | INFO | ⏳ 1H candle CLOSED | ETHUSDT @ 1752757199999
+2025-07-17 06:00:00 | INFO | ⏳ 1H candle CLOSED | ADAUSDT @ 1752757199999
+2025-07-17 06:00:00 | INFO | ⏳ 1H candle CLOSED | HBARUSDT @ 1752757199999
+2025-07-17 06:00:00 | INFO | ⏳ 1H candle CLOSED | BNBUSDT @ 1752757199999
+2025-07-17 06:00:00 | INFO | ⏳ 1H candle CLOSED | SOLUSDT @ 1752757199999
+2025-07-17 06:09:40 | INFO | 📋 Lined-up trades for execution (1):
+2025-07-17 06:09:40 | INFO |   ↪ DOGEUSDT-short | Conf: 0.36 | Entry: 0.2144 | Qty: 466.00 | Source: 5M_SCALPER
+2025-07-17 06:09:57 | INFO | 📋 Lined-up trades for execution (1):
+2025-07-17 06:09:57 | INFO |   ↪ DOGEUSDT-short | Conf: 0.36 | Entry: 0.2144 | Qty: 466.00 | Source: 5M_SCALPER
+2025-07-17 06:34:17 | INFO | 📋 Lined-up trades for execution (1):
+2025-07-17 06:34:17 | INFO |   ↪ DOGEUSDT-short | Conf: 0.36 | Entry: 0.2130 | Qty: 469.00 | Source: 5M_SCALPER
+2025-07-17 06:34:18 | INFO | 📋 Lined-up trades for execution (1):
+2025-07-17 06:34:18 | INFO |   ↪ XRPUSDT-short | Conf: 0.36 | Entry: 3.1900 | Qty: 31.30 | Source: 5M_SCALPER
+2025-07-17 06:34:35 | INFO | 📋 Lined-up trades for execution (1):
+2025-07-17 06:34:35 | INFO |   ↪ DOGEUSDT-short | Conf: 0.36 | Entry: 0.2130 | Qty: 469.00 | Source: 5M_SCALPER
+2025-07-17 07:00:00 | INFO | ⏳ 1H candle CLOSED | HBARUSDT @ 1752760799999
+2025-07-17 07:00:00 | INFO | ⏳ 1H candle CLOSED | ETHUSDT @ 1752760799999
+2025-07-17 07:00:00 | INFO | ⏳ 1H candle CLOSED | XRPUSDT @ 1752760799999
+2025-07-17 07:00:00 | INFO | ⏳ 1H candle CLOSED | BTCUSDT @ 1752760799999
+2025-07-17 07:00:00 | INFO | ⏳ 1H candle CLOSED | DOGEUSDT @ 1752760799999
+2025-07-17 07:00:00 | INFO | ⏳ 1H candle CLOSED | SOLUSDT @ 1752760799999
+2025-07-17 07:00:00 | INFO | ⏳ 1H candle CLOSED | BNBUSDT @ 1752760799999
+2025-07-17 07:00:00 | INFO | ⏳ 1H candle CLOSED | QNTUSDT @ 1752760799999
+2025-07-17 07:00:00 | INFO | ⏳ 1H candle CLOSED | ADAUSDT @ 1752760799999
+2025-07-17 08:00:00 | INFO | ⏳ 1H candle CLOSED | SOLUSDT @ 1752764399999
+2025-07-17 08:00:00 | INFO | ⏳ 1H candle CLOSED | XRPUSDT @ 1752764399999
+2025-07-17 08:00:00 | INFO | ⏳ 1H candle CLOSED | HBARUSDT @ 1752764399999
+2025-07-17 08:00:00 | INFO | ⏳ 1H candle CLOSED | ETHUSDT @ 1752764399999
+2025-07-17 08:00:00 | INFO | ⏳ 1H candle CLOSED | BTCUSDT @ 1752764399999
+2025-07-17 08:00:00 | INFO | ⏳ 1H candle CLOSED | ADAUSDT @ 1752764399999
+2025-07-17 08:00:00 | INFO | ⏳ 1H candle CLOSED | BNBUSDT @ 1752764399999
+2025-07-17 08:00:00 | INFO | ⏳ 1H candle CLOSED | QNTUSDT @ 1752764399999
+2025-07-17 08:00:00 | INFO | ⏳ 1H candle CLOSED | DOGEUSDT @ 1752764399999
+2025-07-17 09:00:00 | INFO | ⏳ 1H candle CLOSED | BNBUSDT @ 1752767999999
+2025-07-17 09:00:00 | INFO | ⏳ 1H candle CLOSED | ETHUSDT @ 1752767999999
+2025-07-17 09:00:00 | INFO | ⏳ 1H candle CLOSED | XRPUSDT @ 1752767999999
+2025-07-17 09:00:00 | INFO | ⏳ 1H candle CLOSED | ADAUSDT @ 1752767999999
+2025-07-17 09:00:00 | INFO | ⏳ 1H candle CLOSED | SOLUSDT @ 1752767999999
+2025-07-17 09:00:00 | INFO | ⏳ 1H candle CLOSED | HBARUSDT @ 1752767999999
+2025-07-17 09:00:00 | INFO | ⏳ 1H candle CLOSED | DOGEUSDT @ 1752767999999
+2025-07-17 09:00:00 | INFO | ⏳ 1H candle CLOSED | QNTUSDT @ 1752767999999
+2025-07-17 09:00:00 | INFO | ⏳ 1H candle CLOSED | BTCUSDT @ 1752767999999
+2025-07-17 09:32:13 | INFO | 📋 Lined-up trades for execution (1):
+2025-07-17 09:32:13 | INFO |   ↪ DOGEUSDT-short | Conf: 0.36 | Entry: 0.2102 | Qty: 475.00 | Source: 5M_SCALPER
+2025-07-17 09:32:30 | INFO | 📋 Lined-up trades for execution (1):
+2025-07-17 09:32:30 | INFO |   ↪ DOGEUSDT-short | Conf: 0.36 | Entry: 0.2102 | Qty: 475.00 | Source: 5M_SCALPER
+2025-07-17 09:34:07 | INFO | 📋 Lined-up trades for execution (1):
+2025-07-17 09:34:07 | INFO |   ↪ DOGEUSDT-short | Conf: 0.36 | Entry: 0.2087 | Qty: 479.00 | Source: 5M_SCALPER
+2025-07-17 09:34:40 | INFO | 📋 Lined-up trades for execution (1):
+2025-07-17 09:34:40 | INFO |   ↪ DOGEUSDT-short | Conf: 0.36 | Entry: 0.2085 | Qty: 479.00 | Source: 5M_SCALPER
+2025-07-17 09:42:58 | INFO | ✅ Open positions loaded successfully.
+2025-07-17 09:42:59 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-17 09:42:59 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500

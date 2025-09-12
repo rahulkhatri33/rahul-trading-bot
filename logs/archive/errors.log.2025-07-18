@@ -1,0 +1,2682 @@
+2025-07-18 00:00:01 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+90    7509.2256  773.14        77.2       239.3  ...      342.1  118532.9     -2239.146              2.965749
+
+[1 rows x 15 columns]
+2025-07-18 00:00:01 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence    volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+90    7509.2256  773.14       21.148753  4060.568  ...  45.026663   61.833895  118477.100287          0.363346
+
+[1 rows x 15 columns]
+2025-07-18 00:00:02 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5       volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+90  577293092.4  651469265.0  0.005692       0.000002  ...  0.20805    -28.21744   232089441.0  0.21155
+
+[1 rows x 15 columns]
+2025-07-18 00:00:02 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+         volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+90  651469265.0  577293092.4        0.000437     -0.000244  ...   232089441.0  0.21155      0.0035    -28.21744
+
+[1 rows x 15 columns]
+2025-07-18 00:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick      low    close  ema_7_slope
+90  426249.0102  423079.671       0.028703         62.72  48.426  ...      17.82       37.23  3365.01  3402.24    -5.211784
+
+[1 rows x 15 columns]
+2025-07-18 00:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+90  426249.0102  423079.671     -0.694923  48.426  ...       37.23     71124.116           0.12229      17.82
+
+[1 rows x 15 columns]
+2025-07-18 00:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range      volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+90  0.005948       0.00554  72117365.0        0.001463  ...    0.245385      0.000319  0.24839             -0.000115
+
+[1 rows x 15 columns]
+2025-07-18 00:00:05 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+90  0.005948       0.00554     0.243807       0.000002  ...    0.00154     0.000204  26.666664       0.277978
+
+[1 rows x 15 columns]
+2025-07-18 00:00:06 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+90  1.706      5444.26  4709.7          1.32       0.000955  ...   114.642129  18.546845  113.42         326.7  114.447179
+
+[1 rows x 15 columns]
+2025-07-18 00:00:06 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+90  1.706      5444.26       -0.253441       0.000955  ...             -0.142962        0.83  18.546845       0.181818
+
+[1 rows x 15 columns]
+2025-07-18 00:00:08 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+90  1398764.8       0.001457   1639758.14  2.954  ...        1.54        0.277574  171.15       1.39
+
+[1 rows x 15 columns]
+2025-07-18 00:00:08 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio   high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+90   1639758.14  1398764.8       0.001457  174.4  ...  172.69  16.691505   -35.748903             -0.328523
+
+[1 rows x 15 columns]
+2025-07-18 00:00:09 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+90   91717878.5  72820635.8  0.05958        0.0523  ...  45.369285      0.008242          0.342256      0.0179
+
+[1 rows x 15 columns]
+2025-07-18 00:00:09 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+90   91717878.5  72820635.8  0.05958        0.0523  ...             -0.002891    -2732187.4   57.751586   -12.382302
+
+[1 rows x 15 columns]
+2025-07-18 00:00:10 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+89   75044209.4  61982821.0  0.02032       0.000007         0.021  ...     0.791576     0.0087  0.791886  0.8026   63.650793
+
+[1 rows x 15 columns]
+2025-07-18 00:00:10 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+89   75044209.4  0.02032  61982821.0         0.00722  ...    19532248.0      0.0089       0.414286    -0.001735
+
+[1 rows x 15 columns]
+2025-07-18 00:00:12 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+89    50842.298  45959.17  7.826       0.006026  ...        2.62          8.63  720.611579       0.614137
+
+[1 rows x 15 columns]
+2025-07-18 00:00:12 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+      volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+89  45959.17    50842.298  7.826        1.735356  ...          0.082271   -19.198835  39.505618  713.77
+
+[1 rows x 15 columns]
+2025-07-18 00:05:31 | ERROR | ADAUSDT ❌ Failed to load model from ml_models\ADAUSDT\ADAUSDT_xgb_long.pkl: [00:05:31] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:31 | ERROR | ADAUSDT-long ❌ Failed to preload model: Failed to load model for ADAUSDT - long
+2025-07-18 00:05:32 | ERROR | ADAUSDT ❌ Failed to load model from ml_models\ADAUSDT\ADAUSDT_xgb_short.pkl: [00:05:31] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:32 | ERROR | ADAUSDT-short ❌ Failed to preload model: Failed to load model for ADAUSDT - short
+2025-07-18 00:05:32 | ERROR | BNBUSDT ❌ Failed to load model from ml_models\BNBUSDT\BNBUSDT_xgb_long.pkl: [00:05:32] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:32 | ERROR | BNBUSDT-long ❌ Failed to preload model: Failed to load model for BNBUSDT - long
+2025-07-18 00:05:33 | ERROR | BNBUSDT ❌ Failed to load model from ml_models\BNBUSDT\BNBUSDT_xgb_short.pkl: [00:05:32] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:33 | ERROR | BNBUSDT-short ❌ Failed to preload model: Failed to load model for BNBUSDT - short
+2025-07-18 00:05:33 | ERROR | BTCUSDT ❌ Failed to load model from ml_models\BTCUSDT\BTCUSDT_xgb_long.pkl: [00:05:33] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:33 | ERROR | BTCUSDT-long ❌ Failed to preload model: Failed to load model for BTCUSDT - long
+2025-07-18 00:05:34 | ERROR | BTCUSDT ❌ Failed to load model from ml_models\BTCUSDT\BTCUSDT_xgb_short.pkl: [00:05:33] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:34 | ERROR | BTCUSDT-short ❌ Failed to preload model: Failed to load model for BTCUSDT - short
+2025-07-18 00:05:36 | ERROR | DOGEUSDT ❌ Failed to load model from ml_models\DOGEUSDT\DOGEUSDT_xgb_long.pkl: [00:05:34] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:36 | ERROR | DOGEUSDT-long ❌ Failed to preload model: Failed to load model for DOGEUSDT - long
+2025-07-18 00:05:36 | ERROR | DOGEUSDT ❌ Failed to load model from ml_models\DOGEUSDT\DOGEUSDT_xgb_short.pkl: [00:05:36] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:36 | ERROR | DOGEUSDT-short ❌ Failed to preload model: Failed to load model for DOGEUSDT - short
+2025-07-18 00:05:37 | ERROR | ETHUSDT ❌ Failed to load model from ml_models\ETHUSDT\ETHUSDT_xgb_long.pkl: [00:05:36] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:37 | ERROR | ETHUSDT-long ❌ Failed to preload model: Failed to load model for ETHUSDT - long
+2025-07-18 00:05:37 | ERROR | ETHUSDT ❌ Failed to load model from ml_models\ETHUSDT\ETHUSDT_xgb_short.pkl: [00:05:37] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:37 | ERROR | ETHUSDT-short ❌ Failed to preload model: Failed to load model for ETHUSDT - short
+2025-07-18 00:05:38 | ERROR | HBARUSDT ❌ Failed to load model from ml_models\HBARUSDT\HBARUSDT_xgb_long.pkl: [00:05:37] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:38 | ERROR | HBARUSDT-long ❌ Failed to preload model: Failed to load model for HBARUSDT - long
+2025-07-18 00:05:39 | ERROR | HBARUSDT ❌ Failed to load model from ml_models\HBARUSDT\HBARUSDT_xgb_short.pkl: [00:05:38] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:39 | ERROR | HBARUSDT-short ❌ Failed to preload model: Failed to load model for HBARUSDT - short
+2025-07-18 00:05:39 | ERROR | QNTUSDT ❌ Failed to load model from ml_models\QNTUSDT\QNTUSDT_xgb_long.pkl: [00:05:39] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:39 | ERROR | QNTUSDT-long ❌ Failed to preload model: Failed to load model for QNTUSDT - long
+2025-07-18 00:05:40 | ERROR | QNTUSDT ❌ Failed to load model from ml_models\QNTUSDT\QNTUSDT_xgb_short.pkl: [00:05:39] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:40 | ERROR | QNTUSDT-short ❌ Failed to preload model: Failed to load model for QNTUSDT - short
+2025-07-18 00:05:40 | ERROR | SOLUSDT ❌ Failed to load model from ml_models\SOLUSDT\SOLUSDT_xgb_long.pkl: [00:05:40] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:40 | ERROR | SOLUSDT-long ❌ Failed to preload model: Failed to load model for SOLUSDT - long
+2025-07-18 00:05:41 | ERROR | SOLUSDT ❌ Failed to load model from ml_models\SOLUSDT\SOLUSDT_xgb_short.pkl: [00:05:40] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:41 | ERROR | SOLUSDT-short ❌ Failed to preload model: Failed to load model for SOLUSDT - short
+2025-07-18 00:05:41 | ERROR | XRPUSDT ❌ Failed to load model from ml_models\XRPUSDT\XRPUSDT_xgb_long.pkl: [00:05:41] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:41 | ERROR | XRPUSDT-long ❌ Failed to preload model: Failed to load model for XRPUSDT - long
+2025-07-18 00:05:42 | ERROR | XRPUSDT ❌ Failed to load model from ml_models\XRPUSDT\XRPUSDT_xgb_short.pkl: [00:05:41] C:/Users/Administrator/workspace/xgboost-win64_release_1.3.0/src/common/json.cc:458: Expecting: """, got: "76 ", around character position: 1
+    {L\0\0\0\0\0\0\0
+    ^~~~~~~~~
+2025-07-18 00:05:42 | ERROR | XRPUSDT-short ❌ Failed to preload model: Failed to load model for XRPUSDT - short
+2025-07-18 00:54:38 | CRITICAL | XRPUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 00:54:55 | CRITICAL | XRPUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 01:00:00 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+91   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 01:00:00 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+91   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 01:00:02 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+91    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 01:00:02 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+91  3154.94    48617.682  5.726        6.448535  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 01:00:03 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+91    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.309667
+
+[1 rows x 15 columns]
+2025-07-18 01:00:03 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev        ema_14  lower_wick_ratio
+91    3483.5112  524.22      286.469588  209.773  ...  63.023843   73.051708  119898.23891          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 01:00:04 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+91  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 01:00:04 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+91  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 01:00:06 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+91  298191.1834  16502.852       0.030419         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 01:00:06 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+91  298191.1834  16502.852     14.003848  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 01:00:07 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+91  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 01:00:07 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+91  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 01:00:08 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+91    1.1       3526.4   172.6          0.19        0.00098  ...   115.567026  84.199134  117.79       -4728.2  115.866089
+
+[1 rows x 15 columns]
+2025-07-18 01:00:08 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+91    1.1       3526.4        0.994081        0.00098  ...              0.017547         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 01:00:10 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+91  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132882  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 01:00:10 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+91  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014282
+
+[1 rows x 15 columns]
+2025-07-18 01:00:11 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+91  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 01:00:11 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+91  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 01:00:12 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+90   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 01:00:12 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+90   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 01:00:13 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+90    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 01:00:14 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+90  3154.94    48617.682  5.726        6.448535  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 01:03:49 | CRITICAL | XRPUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 01:04:22 | CRITICAL | XRPUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 01:04:39 | CRITICAL | XRPUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 02:00:01 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+90    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.309707
+
+[1 rows x 15 columns]
+2025-07-18 02:00:01 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+90    3483.5112  524.22       286.46985  209.773  ...  63.023843   73.051708  119898.238648          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 02:00:02 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+90  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 02:00:02 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+90  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 02:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+90  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 02:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+90  298191.1834  16502.852      14.00385  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 02:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+90  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 02:00:05 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+90  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 02:00:06 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+90    1.1       3526.4   172.6          0.19        0.00098  ...   115.567025  84.199134  117.79       -4728.2  115.866089
+
+[1 rows x 15 columns]
+2025-07-18 02:00:06 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+90    1.1       3526.4        0.994082        0.00098  ...              0.017546         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 02:00:07 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+90  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132883  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 02:00:07 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+90  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014281
+
+[1 rows x 15 columns]
+2025-07-18 02:00:09 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+90  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 02:00:09 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+90  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 02:00:10 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+89   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 02:00:10 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+89   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 02:00:11 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+89    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 02:00:11 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+89  3154.94    48617.682  5.726        6.448527  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 03:00:01 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+89    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711             -41.30962
+
+[1 rows x 15 columns]
+2025-07-18 03:00:01 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+89    3483.5112  524.22      286.469282  209.773  ...  63.023843   73.051708  119898.239216          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 03:00:02 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+89  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 03:00:02 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+89  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 03:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+89  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 03:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+89  298191.1834  16502.852     14.003847  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 03:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+89  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 03:00:05 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+89  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 03:00:06 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope     ema_14
+89    1.1       3526.4   172.6          0.19        0.00098  ...   115.567027  84.199134  117.79       -4728.2  115.86609
+
+[1 rows x 15 columns]
+2025-07-18 03:00:06 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+89    1.1       3526.4        0.994081        0.00098  ...              0.017547         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 03:00:08 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+89  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132881  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 03:00:08 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+89  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014282
+
+[1 rows x 15 columns]
+2025-07-18 03:00:09 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+89  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 03:00:09 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+89  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 03:00:10 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+88   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 03:00:10 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+88   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 03:00:11 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+88    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 03:00:11 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+88  3154.94    48617.682  5.726        6.448529  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 04:00:01 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+88    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.309648
+
+[1 rows x 15 columns]
+2025-07-18 04:00:01 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+88    3483.5112  524.22      286.469466  209.773  ...  63.023843   73.051708  119898.239032          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 04:00:02 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+88  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 04:00:02 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+88  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 04:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+88  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 04:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+88  298191.1834  16502.852     14.003847  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 04:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+88  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 04:00:05 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+88  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 04:00:06 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+88    1.1       3526.4   172.6          0.19        0.00098  ...   115.567026  84.199134  117.79       -4728.2  115.866089
+
+[1 rows x 15 columns]
+2025-07-18 04:00:06 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+88    1.1       3526.4        0.994082        0.00098  ...              0.017547         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 04:00:08 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+88  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132881  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 04:00:08 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+88  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014282
+
+[1 rows x 15 columns]
+2025-07-18 04:00:09 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+88  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 04:00:09 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+88  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 04:00:10 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+87   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 04:00:10 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+87   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 04:00:11 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+87    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 04:00:12 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+87  3154.94    48617.682  5.726        6.448529  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 05:00:01 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+87    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711             -41.30976
+
+[1 rows x 15 columns]
+2025-07-18 05:00:01 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+87    3483.5112  524.22       286.47019  209.773  ...  63.023843   73.051708  119898.238308          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 05:00:02 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+87  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 05:00:02 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+87  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 05:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+87  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 05:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+87  298191.1834  16502.852     14.003847  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 05:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+87  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 05:00:05 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+87  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 05:00:06 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+87    1.1       3526.4   172.6          0.19        0.00098  ...   115.567025  84.199134  117.79       -4728.2  115.866089
+
+[1 rows x 15 columns]
+2025-07-18 05:00:06 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+87    1.1       3526.4        0.994082        0.00098  ...              0.017546         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 05:00:08 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+87  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132881  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 05:00:08 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+87  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014282
+
+[1 rows x 15 columns]
+2025-07-18 05:00:09 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+87  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 05:00:09 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+87  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 05:00:10 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+86   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 05:00:10 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+86   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 05:00:12 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+86    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 05:00:12 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+86  3154.94    48617.682  5.726        6.448527  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 06:00:01 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+86    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.309775
+
+[1 rows x 15 columns]
+2025-07-18 06:00:01 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev        ema_14  lower_wick_ratio
+86    3483.5112  524.22      286.470288  209.773  ...  63.023843   73.051708  119898.23821          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 06:00:02 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+86  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 06:00:02 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+86  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 06:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+86  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 06:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+86  298191.1834  16502.852     14.003842  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 06:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+86  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 06:00:05 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+86  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 06:00:06 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+86    1.1       3526.4   172.6          0.19        0.00098  ...   115.567025  84.199134  117.79       -4728.2  115.866089
+
+[1 rows x 15 columns]
+2025-07-18 06:00:06 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+86    1.1       3526.4        0.994082        0.00098  ...              0.017546         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 06:00:07 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+86  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132881  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 06:00:07 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+86  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014282
+
+[1 rows x 15 columns]
+2025-07-18 06:00:09 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+86  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 06:00:09 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+86  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 06:00:10 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+85   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 06:00:10 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+85   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 06:00:11 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+85    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 06:00:11 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+85  3154.94    48617.682  5.726        6.448529  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 07:00:02 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+85    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.309886
+
+[1 rows x 15 columns]
+2025-07-18 07:00:02 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+85    3483.5112  524.22      286.471014  209.773  ...  63.023843   73.051708  119898.237484          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 07:00:05 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+85  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 07:00:05 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+85  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 07:00:06 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+85  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 07:00:07 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+85  298191.1834  16502.852     14.003845  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 07:00:08 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+85  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 07:00:08 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+85  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 07:00:09 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+85    1.1       3526.4   172.6          0.19        0.00098  ...   115.567023  84.199134  117.79       -4728.2  115.866087
+
+[1 rows x 15 columns]
+2025-07-18 07:00:09 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+85    1.1       3526.4        0.994084        0.00098  ...              0.017546         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 07:00:10 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+85  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132883  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 07:00:10 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+85  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014281
+
+[1 rows x 15 columns]
+2025-07-18 07:00:12 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+85  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 07:00:12 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+85  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 07:00:13 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+84   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 07:00:13 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+84   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 07:00:14 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+84    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 07:00:15 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+84  3154.94    48617.682  5.726         6.44853  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 07:17:20 | CRITICAL | ADAUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 07:19:29 | CRITICAL | ADAUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 08:00:01 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+84    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.309763
+
+[1 rows x 15 columns]
+2025-07-18 08:00:01 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+84    3483.5112  524.22       286.47021  209.773  ...  63.023843   73.051708  119898.238288          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 08:00:02 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+84  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 08:00:02 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+84  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 08:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+84  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 08:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+84  298191.1834  16502.852     14.003846  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 08:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+84  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 08:00:05 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+84  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 08:00:07 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+84    1.1       3526.4   172.6          0.19        0.00098  ...   115.567025  84.199134  117.79       -4728.2  115.866088
+
+[1 rows x 15 columns]
+2025-07-18 08:00:07 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+84    1.1       3526.4        0.994082        0.00098  ...              0.017546         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 08:00:08 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+84  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132882  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 08:00:08 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+84  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014282
+
+[1 rows x 15 columns]
+2025-07-18 08:00:09 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+84  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 08:00:10 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+84  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 08:00:11 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+83   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 08:00:11 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+83   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 08:00:12 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+83    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 08:00:12 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+83  3154.94    48617.682  5.726        6.448531  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 08:14:51 | CRITICAL | ADAUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 08:19:10 | CRITICAL | ADAUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 08:19:59 | CRITICAL | ADAUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 09:00:02 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+83    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.309836
+
+[1 rows x 15 columns]
+2025-07-18 09:00:02 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+83    3483.5112  524.22      286.470685  209.773  ...  63.023843   73.051708  119898.237813          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 09:00:03 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+83  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 09:00:03 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+83  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 09:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+83  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 09:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+83  298191.1834  16502.852     14.003844  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 09:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+83  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 09:00:05 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+83  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 09:00:07 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+83    1.1       3526.4   172.6          0.19        0.00098  ...   115.567025  84.199134  117.79       -4728.2  115.866088
+
+[1 rows x 15 columns]
+2025-07-18 09:00:07 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+83    1.1       3526.4        0.994083        0.00098  ...              0.017546         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 09:00:08 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+83  108217.38       0.001529  1455752.636  1.928  ...        0.07         2.13288  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 09:00:08 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+83  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014282
+
+[1 rows x 15 columns]
+2025-07-18 09:00:09 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+83  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 09:00:09 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+83  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 09:00:11 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+82   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 09:00:11 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+82   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 09:00:12 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+82    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 09:00:12 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+82  3154.94    48617.682  5.726        6.448543  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 10:00:01 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+82  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 10:00:01 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+82  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 10:00:03 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+82  298191.1834  16502.852       0.030419         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 10:00:03 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+82  298191.1834  16502.852     14.003855  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 10:00:04 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+82  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 10:00:04 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+82  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 10:00:05 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+82    1.1       3526.4   172.6          0.19        0.00098  ...    115.56702  84.199134  117.79       -4728.2  115.866084
+
+[1 rows x 15 columns]
+2025-07-18 10:00:05 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+82    1.1       3526.4        0.994086        0.00098  ...              0.017546         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 10:00:07 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+82  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132883  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 10:00:07 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+82  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014281
+
+[1 rows x 15 columns]
+2025-07-18 10:00:08 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+82  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 10:00:08 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+82  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 10:00:09 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+81   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 10:00:09 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+81   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 10:00:10 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+81    48617.682  3154.94  5.726       0.006188  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 10:00:10 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+81  3154.94    48617.682  5.726        6.448561  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 10:00:12 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+82    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711             -41.31004
+
+[1 rows x 15 columns]
+2025-07-18 10:00:12 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+82    3483.5112  524.22       286.47201  209.773  ...  63.023843   73.051708  119898.236488          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 11:00:01 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+81    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.310627
+
+[1 rows x 15 columns]
+2025-07-18 11:00:01 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+81    3483.5112  524.22      286.475827  209.773  ...  63.023843   73.051708  119898.232671          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 11:00:02 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+81  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 11:00:02 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+81  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 11:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+81  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 11:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+81  298191.1834  16502.852     14.003862  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 11:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+81  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 11:00:05 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+81  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 11:00:06 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+81    1.1       3526.4   172.6          0.19        0.00098  ...   115.567005  84.199134  117.79       -4728.2  115.866071
+
+[1 rows x 15 columns]
+2025-07-18 11:00:06 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+81    1.1       3526.4          0.9941        0.00098  ...              0.017544         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 11:00:08 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+81  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132891  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 11:00:08 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+81  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637               0.01428
+
+[1 rows x 15 columns]
+2025-07-18 11:00:09 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+81  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 11:00:09 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+81  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 11:00:11 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+80   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 11:00:11 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+80   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 11:00:12 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+80    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 11:00:12 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+80  3154.94    48617.682  5.726        6.448559  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 12:00:01 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+80    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.310419
+
+[1 rows x 15 columns]
+2025-07-18 12:00:01 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+80    3483.5112  524.22      286.474476  209.773  ...  63.023843   73.051708  119898.234022          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 12:00:02 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+80  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 12:00:02 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+80  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 12:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+80  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 12:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+80  298191.1834  16502.852     14.003855  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 12:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+80  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 12:00:05 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+80  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 12:00:06 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope     ema_14
+80    1.1       3526.4   172.6          0.19        0.00098  ...   115.567015  84.199134  117.79       -4728.2  115.86608
+
+[1 rows x 15 columns]
+2025-07-18 12:00:06 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+80    1.1       3526.4        0.994091        0.00098  ...              0.017545         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 12:00:07 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+80  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132887  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 12:00:08 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+80  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014281
+
+[1 rows x 15 columns]
+2025-07-18 12:00:09 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+80  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 12:00:09 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+80  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 12:00:10 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+79   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 12:00:10 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+79   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 12:00:11 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+79    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 12:00:12 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+79  3154.94    48617.682  5.726        6.448563  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 12:17:31 | CRITICAL | XRPUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 12:17:48 | CRITICAL | XRPUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 13:00:01 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+79    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.310646
+
+[1 rows x 15 columns]
+2025-07-18 13:00:01 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev        ema_14  lower_wick_ratio
+79    3483.5112  524.22      286.475948  209.773  ...  63.023843   73.051708  119898.23255          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 13:00:02 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+79  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 13:00:02 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+79  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 13:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+79  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 13:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+79  298191.1834  16502.852     14.003865  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 13:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+79  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 13:00:05 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+79  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 13:00:06 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+79    1.1       3526.4   172.6          0.19        0.00098  ...   115.567014  84.199134  117.79       -4728.2  115.866079
+
+[1 rows x 15 columns]
+2025-07-18 13:00:06 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+79    1.1       3526.4        0.994092        0.00098  ...              0.017545         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 13:00:08 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+79  108217.38       0.001529  1455752.636  1.928  ...        0.07         2.13289  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 13:00:08 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+79  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637               0.01428
+
+[1 rows x 15 columns]
+2025-07-18 13:00:09 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+79  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 13:00:09 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+79  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 13:00:10 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+78   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 13:00:10 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+78   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 13:00:11 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+78    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 13:00:11 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+78  3154.94    48617.682  5.726        6.448578  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 14:00:01 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+78    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711             -41.31084
+
+[1 rows x 15 columns]
+2025-07-18 14:00:01 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+78    3483.5112  524.22      286.477212  209.773  ...  63.023843   73.051708  119898.231286          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 14:00:02 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+78  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 14:00:03 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+78  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 14:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+78  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 14:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+78  298191.1834  16502.852     14.003879  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 14:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+78  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 14:00:05 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+78  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 14:00:07 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+78    1.1       3526.4   172.6          0.19        0.00098  ...   115.567009  84.199134  117.79       -4728.2  115.866075
+
+[1 rows x 15 columns]
+2025-07-18 14:00:07 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+78    1.1       3526.4        0.994096        0.00098  ...              0.017544         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 14:00:08 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+78  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132897  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 14:00:08 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+78  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014279
+
+[1 rows x 15 columns]
+2025-07-18 14:00:09 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+78  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 14:00:09 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+78  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 14:00:10 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+77   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 14:00:11 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+77   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 14:00:12 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+77    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 14:00:12 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+77  3154.94    48617.682  5.726        6.448574  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 14:08:45 | ERROR | ❌ WebSocket error: ping/pong timed out
+2025-07-18 14:08:48 | ERROR | 📴 WebSocket closed (None) — None
+2025-07-18 14:09:52 | ERROR | ❌ WebSocket error: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-07-18 14:09:52 | ERROR | 📴 WebSocket closed (None) — None
+2025-07-18 14:10:13 | ERROR | ❌ WebSocket error: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-07-18 14:10:13 | ERROR | 📴 WebSocket closed (None) — None
+2025-07-18 14:10:35 | ERROR | ❌ WebSocket error: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-07-18 14:10:35 | ERROR | 📴 WebSocket closed (None) — None
+2025-07-18 15:00:01 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+77  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 15:00:01 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+77  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 15:00:03 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+77  298191.1834  16502.852       0.030419         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 15:00:03 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+77  298191.1834  16502.852      14.00387  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 15:00:04 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+77  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 15:00:04 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+77  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 15:00:06 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+77    1.1       3526.4   172.6          0.19        0.00098  ...   115.567016  84.199134  117.79       -4728.2  115.866081
+
+[1 rows x 15 columns]
+2025-07-18 15:00:06 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+77    1.1       3526.4         0.99409        0.00098  ...              0.017545         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 15:00:07 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+77  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132889  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 15:00:07 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+77  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637               0.01428
+
+[1 rows x 15 columns]
+2025-07-18 15:00:08 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+77  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 15:00:08 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+77  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 15:00:09 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+76   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 15:00:09 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+76   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 15:00:11 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+76    48617.682  3154.94  5.726       0.006188  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 15:00:11 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+76  3154.94    48617.682  5.726        6.448568  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 15:00:12 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+77    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.310588
+
+[1 rows x 15 columns]
+2025-07-18 15:00:12 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+77    3483.5112  524.22      286.475572  209.773  ...  63.023843   73.051708  119898.232926          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 15:27:16 | CRITICAL | DOGEUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 15:27:33 | CRITICAL | ADAUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 15:27:34 | CRITICAL | DOGEUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 15:27:51 | CRITICAL | DOGEUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 16:00:01 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+76  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 16:00:01 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+76  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 16:00:03 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+76  298191.1834  16502.852       0.030419         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 16:00:03 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+76  298191.1834  16502.852     14.003867  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 16:00:04 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+76  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 16:00:04 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+76  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 16:00:05 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope     ema_14
+76    1.1       3526.4   172.6          0.19        0.00098  ...   115.567004  84.199134  117.79       -4728.2  115.86607
+
+[1 rows x 15 columns]
+2025-07-18 16:00:05 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+76    1.1       3526.4          0.9941        0.00098  ...              0.017544         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 16:00:07 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+76  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132897  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 16:00:07 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+76  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014279
+
+[1 rows x 15 columns]
+2025-07-18 16:00:08 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+76  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 16:00:08 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+76  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 16:00:10 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+75   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 16:00:10 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+75   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 16:00:11 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+75    48617.682  3154.94  5.726       0.006188  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 16:00:11 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+75  3154.94    48617.682  5.726        6.448563  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 16:00:13 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+76    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.310393
+
+[1 rows x 15 columns]
+2025-07-18 16:00:13 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+76    3483.5112  524.22      286.474307  209.773  ...  63.023843   73.051708  119898.234191          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 17:00:01 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+75    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.310532
+
+[1 rows x 15 columns]
+2025-07-18 17:00:01 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+75    3483.5112  524.22       286.47521  209.773  ...  63.023843   73.051708  119898.233288          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 17:00:03 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+75  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 17:00:03 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+75  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 17:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+75  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 17:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+75  298191.1834  16502.852      14.00386  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 17:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+75  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 17:00:05 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+75  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 17:00:06 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+75    1.1       3526.4   172.6          0.19        0.00098  ...   115.567001  84.199134  117.79       -4728.2  115.866068
+
+[1 rows x 15 columns]
+2025-07-18 17:00:06 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+75    1.1       3526.4        0.994103        0.00098  ...              0.017543         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 17:00:08 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+75  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132901  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 17:00:08 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+75  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014279
+
+[1 rows x 15 columns]
+2025-07-18 17:00:09 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+75  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 17:00:09 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+75  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 17:00:10 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+74   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 17:00:10 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+74   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 17:00:11 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+74    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 17:00:11 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+74  3154.94    48617.682  5.726         6.44857  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 18:02:33 | ERROR | 🛑 1H WebSocket silent for 152.9s — restarting...
+2025-07-18 18:02:34 | ERROR | 🛑 1H WebSocket silent for 154.2s — restarting...
+2025-07-18 18:02:35 | ERROR | 🛑 1H WebSocket silent for 155.2s — restarting...
+2025-07-18 18:02:36 | ERROR | 🛑 1H WebSocket silent for 155.6s — restarting...
+2025-07-18 18:02:39 | ERROR | 🛑 1H WebSocket silent for 158.5s — restarting...
+2025-07-18 22:00:01 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+91   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 22:00:01 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+91   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 22:00:02 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+91    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 22:00:02 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+91  3154.94    48617.682  5.726        6.448535  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 22:00:04 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+91    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.309667
+
+[1 rows x 15 columns]
+2025-07-18 22:00:04 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev        ema_14  lower_wick_ratio
+91    3483.5112  524.22      286.469588  209.773  ...  63.023843   73.051708  119898.23891          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 22:00:05 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+91  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 22:00:05 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+91  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 22:00:06 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+91  298191.1834  16502.852       0.030419         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 22:00:06 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+91  298191.1834  16502.852     14.003848  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 22:00:07 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+91  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 22:00:07 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+91  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 22:00:09 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+91    1.1       3526.4   172.6          0.19        0.00098  ...   115.567026  84.199134  117.79       -4728.2  115.866089
+
+[1 rows x 15 columns]
+2025-07-18 22:00:09 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+91    1.1       3526.4        0.994081        0.00098  ...              0.017547         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 22:00:10 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+91  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132882  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 22:00:10 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+91  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014282
+
+[1 rows x 15 columns]
+2025-07-18 22:00:11 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+91  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 22:00:11 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+91  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 22:00:13 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+90   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 22:00:13 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+90   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 22:00:14 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+90    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 22:00:14 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+90  3154.94    48617.682  5.726        6.448535  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 22:08:12 | CRITICAL | DOGEUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 22:09:17 | CRITICAL | DOGEUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 22:09:34 | CRITICAL | DOGEUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 22:09:50 | CRITICAL | DOGEUSDT ❌ Binance API entry failure: Margin is insufficient.
+2025-07-18 23:00:01 | ERROR | BTCUSDT-long ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  upper_wick  lower_wick  ...  body_size     close  volume_slope  ema_divergence_slope
+90    3483.5112  524.22        31.4         0.1  ...       38.5  120200.1     -4414.711            -41.309707
+
+[1 rows x 15 columns]
+2025-07-18 23:00:01 | ERROR | BTCUSDT-short ❌ Inference error: ❌ XGB prediction failed for BTCUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   atr_5  ema_divergence   volume  ...      rsi_7  rsi_7_prev         ema_14  lower_wick_ratio
+90    3483.5112  524.22       286.46985  209.773  ...  63.023843   73.051708  119898.238648          0.001429
+
+[1 rows x 15 columns]
+2025-07-18 23:00:03 | ERROR | DOGEUSDT-long ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume     atr_5  alt_btc_ratio  ...      low  rsi_7_slope  volume_slope    close
+90  734024152.4  92165289.0  0.006356       0.000002  ...  0.24509    -3.283124  -976150200.0  0.24519
+
+[1 rows x 15 columns]
+2025-07-18 23:00:03 | ERROR | DOGEUSDT-short ❌ Inference error: ❌ XGB prediction failed for DOGEUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+        volume  volume_ma_5  ema_divergence  ema_14_slope  ...  volume_slope    close  lower_wick  rsi_7_slope
+90  92165289.0  734024152.4        0.007146      0.002129  ...  -976150200.0  0.24519      0.0001    -3.283124
+
+[1 rows x 15 columns]
+2025-07-18 23:00:04 | ERROR | ETHUSDT-long ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio  candle_range   atr_5  ...  body_size  lower_wick     low    close  ema_7_slope
+90  298191.1834  16502.852       0.030429         13.27  34.264  ...       7.31        0.01  3650.2  3657.52     12.83491
+
+[1 rows x 15 columns]
+2025-07-18 23:00:04 | ERROR | ETHUSDT-short ❌ Inference error: ❌ XGB prediction failed for ETHUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  ema_14_slope   atr_5  ...  lower_wick  volume_slope  upper_wick_ratio  body_size
+90  298191.1834  16502.852      14.00385  34.264  ...        0.01   -292613.459           0.44838       7.31
+
+[1 rows x 15 columns]
+2025-07-18 23:00:05 | ERROR | HBARUSDT-long ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range     volume  ema_divergence  ...  ema_7_prev  ema_14_slope     high  ema_divergence_slope
+90  0.004984       0.00161  5963124.0        0.005562  ...    0.281799      0.000613  0.28122             -0.001138
+
+[1 rows x 15 columns]
+2025-07-18 23:00:06 | ERROR | HBARUSDT-short ❌ Inference error: ❌ XGB prediction failed for HBARUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       atr_5  candle_range  ema_14_prev  alt_btc_ratio  ...  body_size  ema_7_slope      rsi_7  body_to_range
+90  0.004984       0.00161     0.275099       0.000002  ...    0.00066    -0.000525  11.902834       0.409935
+
+[1 rows x 15 columns]
+2025-07-18 23:00:07 | ERROR | QNTUSDT-long ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  volume  candle_range  alt_btc_ratio  ...  ema_14_prev      rsi_7    open  volume_slope      ema_14
+90    1.1       3526.4   172.6          0.19        0.00098  ...   115.567025  84.199134  117.79       -4728.2  115.866089
+
+[1 rows x 15 columns]
+2025-07-18 23:00:07 | ERROR | QNTUSDT-short ❌ Inference error: ❌ XGB prediction failed for QNTUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    atr_5  volume_ma_5  ema_divergence  alt_btc_ratio  ...  ema_divergence_slope  lower_wick      rsi_7  body_to_range
+90    1.1       3526.4        0.994082        0.00098  ...              0.017546         0.0  84.199134       0.105263
+
+[1 rows x 15 columns]
+2025-07-18 23:00:08 | ERROR | SOLUSDT-long ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+       volume  alt_btc_ratio  volume_ma_5  atr_5  ...  lower_wick  ema_divergence     low  body_size
+90  108217.38       0.001529  1455752.636  1.928  ...        0.07        2.132883  183.54       0.21
+
+[1 rows x 15 columns]
+2025-07-18 23:00:08 | ERROR | SOLUSDT-short ❌ Inference error: ❌ XGB prediction failed for SOLUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume  alt_btc_ratio    high  ...   close      rsi_7  rsi_7_slope  ema_divergence_slope
+90  1455752.636  108217.38       0.001529  184.09  ...  183.82  82.741935    -6.482637              0.014281
+
+[1 rows x 15 columns]
+2025-07-18 23:00:10 | ERROR | XRPUSDT-long ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...      rsi_7  ema_14_slope  upper_wick_ratio  upper_wick
+90  61894390.94  6163500.4  0.05404        0.0273  ...  21.022128      0.005255          0.179487      0.0049
+
+[1 rows x 15 columns]
+2025-07-18 23:00:10 | ERROR | XRPUSDT-short ❌ Inference error: ❌ XGB prediction failed for XRPUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5     volume    atr_5  candle_range  ...  ema_divergence_slope  volume_slope  rsi_7_prev  rsi_7_slope
+90  61894390.94  6163500.4  0.05404        0.0273  ...             -0.012082   -90969859.4   62.345315   -41.323187
+
+[1 rows x 15 columns]
+2025-07-18 23:00:11 | ERROR | ADAUSDT-long ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5      volume    atr_5  alt_btc_ratio  candle_range  ...  ema_14_prev  body_size    ema_14    open  rsi_7_prev
+89   67948970.4  28249700.0  0.01738       0.000007        0.0135  ...     0.843676      0.002  0.848573  0.8784   93.161093
+
+[1 rows x 15 columns]
+2025-07-18 23:00:11 | ERROR | ADAUSDT-short ❌ Inference error: ❌ XGB prediction failed for ADAUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5    atr_5      volume  ema_divergence  ...  volume_slope  lower_wick  body_to_range  ema_7_slope
+89   67948970.4  0.01738  28249700.0        0.017261  ...   -51837786.0      0.0021       0.148148     0.004855
+
+[1 rows x 15 columns]
+2025-07-18 23:00:12 | ERROR | BNBUSDT-long ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-long: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+    volume_ma_5   volume  atr_5  alt_btc_ratio  ...  lower_wick  candle_range  ema_7_prev  body_to_range
+89    48617.682  3154.94  5.726       0.006206  ...         0.0          1.35  739.227864       0.266667
+
+[1 rows x 15 columns]
+2025-07-18 23:00:12 | ERROR | BNBUSDT-short ❌ Inference error: ❌ XGB prediction failed for BNBUSDT-short: 'XGBClassifier' object has no attribute 'use_label_encoder'
+Input shape: (1, 15)
+Head:
+     volume  volume_ma_5  atr_5  ema_divergence  ...  upper_wick_ratio  rsi_7_slope      rsi_7     low
+89  3154.94    48617.682  5.726        6.448527  ...          0.733333    -3.236256  86.348409  745.88
+
+[1 rows x 15 columns]
+2025-07-18 23:24:20 | CRITICAL | DOGEUSDT ❌ Binance API entry failure: Margin is insufficient.

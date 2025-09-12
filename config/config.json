@@ -1,0 +1,138 @@
+{
+  "dry_run": false,
+  "live_mode": true,
+  "force_debug_trade": false,
+  "verbose_no_signal": true,
+  "base_pairs": ["ADAUSDT", "BNBUSDT", "BTCUSDT", "DOGEUSDT", "ETHUSDT", "HBARUSDT", "QNTUSDT", "SOLUSDT", "XRPUSDT"],
+  "ml_settings": {
+    "confidence_thresholds": {
+      "ADAUSDT": {"long": 0.55, "short": 0.59},
+      "BNBUSDT": {"long": 0.6, "short": 0.6},
+      "BTCUSDT": {"long": 0.6, "short": 0.6},
+      "DOGEUSDT": {"long": 0.56, "short": 0.58},
+      "ETHUSDT": {"long": 0.6, "short": 0.6},
+      "HBARUSDT": {"long": 0.66, "short": 0.59},
+      "QNTUSDT": {"long": 0.57, "short": 0.57},
+      "SOLUSDT": {"long": 0.6, "short": 0.6},
+      "XRPUSDT": {"long": 0.61, "short": 0.61},
+      "default": {"long": 0.6, "short": 0.6}
+    },
+    "tp_pct": 0.0393,
+    "sl_pct": 0.03,
+    "triple_barrier_config": {
+      "tp": 0.05,
+      "sl": 0.03,
+      "horizon_bars": 4
+    }
+  },
+  "scalper_settings": {
+    "leverage": 20,
+    "risk_percentage": 0.01,
+    "timeframe": "5m",
+    "min_candles": 1000,
+    "signal_late_minutes": 5,
+    "partial_tp": {
+      "enabled": true,
+      "first_rr": 1.0,
+      "first_size_pct": 0.5,
+      "trail_remaining": true
+    },
+    "filters": {
+      "use_min_body": true,
+      "use_volatility_filter": false,
+      "use_trend_filter": true,
+      "use_stc_confirmation": false,
+      "use_time_filter": true
+    },
+    "min_body_pct": 0.0020,
+    "min_body_abs": 0,
+    "min_body_atr_mult": 0.2,
+    "min_body_atr_period": 14,
+    "stc_fast_length": 27,
+    "stc_slow_length": 80,
+    "stc_signal_period": 9,
+    "ema_filter_period": 220,
+    "trading_hours_tz_offset_min": 330,
+    "allowed_trading_hours": [8, 22],
+    "ut_buy_atr_period": 10,
+    "ut_sell_atr_period": 10,
+    "ut_sell_atr_period_alt": 10,
+    "ut_multiplier": 2.0,
+    "use_dynamic_sl_tp": true,
+    "swing_sl_lookback": 10,
+    "min_sl_distance_pct": 0.001,
+    "risk_reward_ratio": 1.4,
+    "fallback_sl_pct": 0.03,
+    "fallback_tp_pct": 0.05,
+    "relax_ut_cross": false,
+    "max_slippage_pct": 0.15,
+    "trailing_stop_pct": 0.015
+  },
+  "symbol_precisions": {
+      "BTCUSDT": {"leverage": 20, "quantityPrecision": 3, "pricePrecision": 2},
+      "ETHUSDT": {"leverage": 20, "quantityPrecision": 3, "pricePrecision": 2},
+      "BNBUSDT": {"leverage": 20, "quantityPrecision": 2, "pricePrecision": 3},
+      "ADAUSDT": {"leverage": 20, "quantityPrecision": 0, "pricePrecision": 5},
+      "XRPUSDT": {"leverage": 20, "quantityPrecision": 0, "pricePrecision": 5},
+      "DOGEUSDT": {"leverage": 20, "quantityPrecision": 0, "pricePrecision": 6},
+      "SOLUSDT": {"leverage": 20, "quantityPrecision": 1, "pricePrecision": 3},
+      "QNTUSDT": {"leverage": 20, "quantityPrecision": 3, "pricePrecision": 3},
+      "HBARUSDT": {"leverage": 20, "quantityPrecision": 0, "pricePrecision": 6}
+  },
+  "usd_allocation_ml": {
+    "ADAUSDT": 200,
+    "BNBUSDT": 200,
+    "BTCUSDT": 200,
+    "DOGEUSDT": 200,
+    "ETHUSDT": 200,
+    "HBARUSDT": 200,
+    "QNTUSDT": 200,
+    "SOLUSDT": 200,
+    "XRPUSDT": 200
+  },
+  "usd_allocation_scalper": {
+    "ADAUSDT": 20,
+    "BNBUSDT": 40,
+    "BTCUSDT": 140,
+    "DOGEUSDT": 20,
+    "ETHUSDT": 20,
+    "HBARUSDT": 40,
+    "QNTUSDT": 20,
+    "SOLUSDT": 60,
+    "XRPUSDT": 40
+  },
+  "max_concurrent_trades": {
+    "ml": 0,
+    "scalper": 4
+  },
+  "cooldown_minutes": {
+    "ml": 40,
+    "scalper": 10
+  },
+  "watchdog": {
+    "heartbeat_timeout_sec": 120,
+    "poll_interval_sec": 30,
+    "sl_tp_buffer_pct": 0.0003
+  },
+  "binance": {
+    "base_url": "https://fapi.binance.com",
+    "api_retries": 3,
+    "rate_limit_buffer": 0.5
+  },
+  "alerts": {
+    "enabled": true,
+    "discord_webhook": "https://discord.com/api/webhooks/1394610690001469451/EX-K3fXX473sY31y9cwCTYUgO7eT2zs3a6357b9MG41q516Xna5JL6Y-ywe6WclVMCph",
+    "discord_log_webhook": "https://discord.com/api/webhooks/1394600301314441317/RDDkXp2QwkrXFUPQ8H2v8mZx1_EkIYT4VHYYMNFop4PHLLl54YEaT8qsc0-vE8qM4tUE",
+    "alert_levels": ["ERROR", "SIGNAL", "EXECUTION"]
+  },
+  "logging": {
+    "max_file_size_mb": 5,
+    "backup_count": 10,
+    "retention_days": 30,
+    "levels": {
+      "scalper_signal": "DEBUG",
+      "trade_execution": "INFO",
+      "errors": "ERROR"
+    }
+  }
+}

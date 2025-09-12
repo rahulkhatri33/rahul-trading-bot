@@ -1,0 +1,482 @@
+2025-07-20 22:57:38 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 22:57:42 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 22:57:42 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 22:57:42 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 22:57:42 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:57:42 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:57:42 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:57:42 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:57:42 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:57:42 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:57:42 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:57:42 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:57:42 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:57:42 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:57:42 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:57:42 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:57:42 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:57:43 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:57:43 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 22:58:17 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 22:58:20 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 22:58:20 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 22:58:20 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 22:58:20 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:20 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:20 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:20 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:20 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:20 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:20 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:20 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:20 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:21 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:58:21 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:58:21 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:58:21 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:58:21 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:58:21 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 22:58:55 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 22:58:58 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 22:58:58 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 22:58:58 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 22:58:58 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:58 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:58 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:58 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:58 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:58 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:58 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:58 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:58 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:58:58 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:58:58 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:58:58 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:58:58 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:58:58 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:58:58 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 22:59:32 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 22:59:36 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 22:59:36 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 22:59:36 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 22:59:36 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:59:36 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:59:36 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:59:36 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:59:36 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:59:36 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:59:36 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:59:36 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:59:36 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 22:59:37 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:59:37 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:59:37 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:59:37 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:59:37 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 22:59:37 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:00:11 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:00:14 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:00:14 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:00:14 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:00:14 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:14 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:14 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:14 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:14 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:14 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:14 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:14 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:14 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:14 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:00:14 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:00:14 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:00:14 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:00:14 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:00:14 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:00:50 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:00:54 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:00:54 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:00:55 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:00:55 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:55 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:55 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:55 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:55 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:55 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:55 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:55 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:55 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:00:55 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:00:55 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:00:55 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:00:55 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:00:55 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:00:55 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:01:29 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:01:32 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:01:32 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:01:32 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:01:32 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:01:32 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:01:32 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:01:32 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:01:32 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:01:32 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:01:32 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:01:32 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:01:32 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:01:32 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:01:32 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:01:32 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:01:32 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:01:32 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:01:32 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:02:06 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:02:10 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:02:10 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:02:10 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:02:10 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:10 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:10 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:10 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:10 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:10 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:10 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:10 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:10 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:10 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:02:10 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:02:10 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:02:10 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:02:10 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:02:10 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:02:45 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:02:48 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:02:48 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:02:48 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:02:48 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:48 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:48 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:48 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:48 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:48 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:48 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:48 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:48 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:02:48 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:02:48 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:02:48 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:02:48 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:02:48 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:02:48 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:03:22 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:03:26 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:03:26 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:03:26 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:03:26 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:03:26 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:03:26 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:03:26 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:03:26 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:03:26 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:03:26 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:03:26 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:03:26 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:03:26 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:03:26 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:03:26 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:03:26 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:03:26 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:03:26 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:04:00 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:04:03 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:04:03 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:04:04 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:04:04 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:04 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:04 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:04 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:04 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:04 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:04 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:04 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:04 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:04 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:04:04 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:04:04 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:04:04 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:04:04 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:04:04 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:04:38 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:04:42 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:04:42 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:04:42 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:04:42 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:42 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:42 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:42 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:42 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:42 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:42 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:42 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:42 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:04:42 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:04:42 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:04:42 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:04:42 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:04:42 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:04:42 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:09:34 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:09:37 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:09:38 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:09:38 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:09:38 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:09:38 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:09:38 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:09:38 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:09:38 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:09:38 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:09:38 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:09:38 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:09:38 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:09:38 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:09:38 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:09:38 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:09:38 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:09:38 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:09:38 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:12:52 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:12:56 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:12:56 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:12:56 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:12:56 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:12:56 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:12:56 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:12:56 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:12:56 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:12:56 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:12:56 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:12:56 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:12:56 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:12:56 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:12:56 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:12:56 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:12:56 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:12:56 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:12:56 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:13:31 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:13:34 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:13:34 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:13:34 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:13:34 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:13:34 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:13:34 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:13:34 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:13:34 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:13:34 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:13:34 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:13:34 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:13:34 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:13:34 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:13:34 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:13:34 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:13:34 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:13:34 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:13:34 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:14:09 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:14:12 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:14:12 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:14:12 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:14:12 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:12 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:12 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:12 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:12 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:12 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:12 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:12 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:12 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:12 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:14:12 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:14:12 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:14:12 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:14:12 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:14:12 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:14:47 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:14:50 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:14:50 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:14:50 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:14:50 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:50 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:50 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:50 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:50 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:50 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:50 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:50 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:50 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:14:50 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:14:50 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:14:50 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:14:50 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:14:50 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:14:50 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:15:18 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:15:20 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:15:20 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:15:21 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:15:21 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:15:21 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:15:21 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:15:21 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:15:21 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:15:21 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:15:21 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:15:21 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:15:21 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:15:21 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:15:21 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:15:21 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:15:21 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:15:21 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:15:21 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:15:21 | INFO | [ONCE] 🔧 scalper_rolling initialized | maxlen=500 | pairs=5
+2025-07-20 23:15:56 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:16:00 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:16:00 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:16:00 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:16:00 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:16:00 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:16:00 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:16:00 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:16:00 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:16:00 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:16:00 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:16:00 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:16:00 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:16:00 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:16:00 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:16:00 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:16:00 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:16:00 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:16:00 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:16:01 | INFO | [ONCE] 🔧 scalper_rolling initialized | maxlen=500 | pairs=5
+2025-07-20 23:31:23 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:31:26 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:31:26 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:31:26 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:31:26 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:31:26 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:31:26 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:31:26 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:31:26 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:31:26 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:31:26 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:31:26 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:31:26 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:31:26 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:31:26 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:31:26 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:31:27 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:31:27 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:31:27 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:31:27 | INFO | [ONCE] 🔧 scalper_rolling initialized | maxlen=500 | pairs=5
+2025-07-20 23:32:49 | INFO | ✅ Config loaded from C:\Users\rahul\Desktop\f_trading_bot\config\config.json
+2025-07-20 23:32:52 | INFO | ✅ Open positions loaded successfully.
+2025-07-20 23:32:52 | INFO | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 23:32:53 | INFO | [ONCE] 📂 ATR cache loaded successfully. Entries: 9
+2025-07-20 23:32:53 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:32:53 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:32:53 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:32:53 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:32:53 | INFO | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:32:53 | INFO | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:32:53 | INFO | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:32:53 | INFO | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:32:53 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 23:32:53 | INFO | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:32:53 | INFO | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:32:53 | INFO | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:32:53 | INFO | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:32:53 | INFO | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 23:32:53 | INFO | ✅ scalper_rolling engine loaded: pairs=5 | interval=5m | maxlen=500
+2025-07-20 23:32:53 | INFO | [ONCE] 🔧 scalper_rolling initialized | maxlen=500 | pairs=5
+2025-07-20 23:32:53 | INFO | ✅ recover_open_positions, successfully imported 
+2025-07-20 23:32:53 | INFO | 🔧 Starting open positions recovery process... 0 open positions found.
+2025-07-20 23:32:53 | INFO | ✅ Recovery complete: 0 positions repaired, 0 forced exits.
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\ADAUSDT\ADAUSDT_xgb_long.pkl
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\ADAUSDT\ADAUSDT_xgb_short.pkl
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\BNBUSDT\BNBUSDT_xgb_long.pkl
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\BNBUSDT\BNBUSDT_xgb_short.pkl
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\BTCUSDT\BTCUSDT_xgb_long.pkl
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\BTCUSDT\BTCUSDT_xgb_short.pkl
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\DOGEUSDT\DOGEUSDT_xgb_long.pkl
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\DOGEUSDT\DOGEUSDT_xgb_short.pkl
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\ETHUSDT\ETHUSDT_xgb_long.pkl
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\ETHUSDT\ETHUSDT_xgb_short.pkl
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\HBARUSDT\HBARUSDT_xgb_long.pkl
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\HBARUSDT\HBARUSDT_xgb_short.pkl
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\QNTUSDT\QNTUSDT_xgb_long.pkl
+2025-07-20 23:32:56 | INFO | 📦 Model loaded and cached: ml_models\QNTUSDT\QNTUSDT_xgb_short.pkl
+2025-07-20 23:32:57 | INFO | 📦 Model loaded and cached: ml_models\SOLUSDT\SOLUSDT_xgb_long.pkl
+2025-07-20 23:32:57 | INFO | 📦 Model loaded and cached: ml_models\SOLUSDT\SOLUSDT_xgb_short.pkl
+2025-07-20 23:32:57 | INFO | 📦 Model loaded and cached: ml_models\XRPUSDT\XRPUSDT_xgb_long.pkl
+2025-07-20 23:32:57 | INFO | 📦 Model loaded and cached: ml_models\XRPUSDT\XRPUSDT_xgb_short.pkl
+2025-07-20 23:32:57 | INFO | 🚀 Booting 1 Hour Machine Learning models...
+2025-07-20 23:32:57 | INFO | ✅ Loaded ML cache from disk. Valid entries: 9
+2025-07-20 23:32:57 | INFO | ADAUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-20 23:32:57 | INFO | [ONCE] ADAUSDT ✅ 1H candles loaded: 120
+2025-07-20 23:32:58 | INFO | BNBUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-20 23:32:58 | INFO | [ONCE] BNBUSDT ✅ 1H candles loaded: 120
+2025-07-20 23:32:58 | INFO | BTCUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-20 23:32:59 | INFO | [ONCE] BTCUSDT ✅ 1H candles loaded: 120
+2025-07-20 23:32:59 | INFO | DOGEUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-20 23:32:59 | INFO | [ONCE] DOGEUSDT ✅ 1H candles loaded: 120
+2025-07-20 23:32:59 | INFO | ETHUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-20 23:33:00 | INFO | [ONCE] ETHUSDT ✅ 1H candles loaded: 120
+2025-07-20 23:33:00 | INFO | HBARUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-20 23:33:00 | INFO | [ONCE] HBARUSDT ✅ 1H candles loaded: 120
+2025-07-20 23:33:01 | INFO | QNTUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-20 23:33:01 | INFO | [ONCE] QNTUSDT ✅ 1H candles loaded: 120
+2025-07-20 23:33:01 | INFO | SOLUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-20 23:33:02 | INFO | [ONCE] SOLUSDT ✅ 1H candles loaded: 120
+2025-07-20 23:33:02 | INFO | XRPUSDT 🧊 Warming up rolling cache with 1 Hour historical candles...
+2025-07-20 23:33:02 | INFO | [ONCE] XRPUSDT ✅ 1H candles loaded: 120
+2025-07-20 23:33:03 | INFO | ADAUSDT 🧭 Warming up rolling cache with 5 minute historical candles...
+2025-07-20 23:33:03 | INFO | BNBUSDT 🧭 Warming up rolling cache with 5 minute historical candles...
+2025-07-20 23:33:03 | INFO | BTCUSDT 🧭 Warming up rolling cache with 5 minute historical candles...
+2025-07-20 23:33:04 | INFO | DOGEUSDT 🧭 Warming up rolling cache with 5 minute historical candles...
+2025-07-20 23:33:04 | INFO | XRPUSDT 🧭 Warming up rolling cache with 5 minute historical candles...
+2025-07-20 23:33:04 | INFO |                                                                         built for profits ...🚀, with precision⏱  
+2025-07-20 23:33:04 | INFO | [ONCE] 📡 5M Scalper polling cycle started...
+2025-07-20 23:33:04 | INFO | [ONCE] ADAUSDT 📥 5M Rolling cache updated at 1753079400000
+2025-07-20 23:33:04 | INFO | 🧠 Launching 1H ML listener thread...
+2025-07-20 23:33:04 | INFO | [ONCE] BNBUSDT 📥 5M Rolling cache updated at 1753079400000
+2025-07-20 23:33:05 | INFO | [ONCE] BTCUSDT 📥 5M Rolling cache updated at 1753079400000
+2025-07-20 23:33:05 | INFO | [ONCE] DOGEUSDT 📥 5M Rolling cache updated at 1753079400000
+2025-07-20 23:33:05 | INFO | [ONCE] XRPUSDT 📥 5M Rolling cache updated at 1753079400000
+2025-07-20 23:35:14 | INFO | [ONCE] ADAUSDT 📥 5M Rolling cache updated at 1753079700000
+2025-07-20 23:35:15 | INFO | [ONCE] BNBUSDT 📥 5M Rolling cache updated at 1753079700000
+2025-07-20 23:35:15 | INFO | [ONCE] BTCUSDT 📥 5M Rolling cache updated at 1753079700000
+2025-07-20 23:35:15 | INFO | [ONCE] DOGEUSDT 📥 5M Rolling cache updated at 1753079700000
+2025-07-20 23:35:16 | INFO | [ONCE] XRPUSDT 📥 5M Rolling cache updated at 1753079700000
+2025-07-20 23:40:08 | INFO | [ONCE] ADAUSDT 📥 5M Rolling cache updated at 1753080000000
+2025-07-20 23:40:08 | INFO | [ONCE] BNBUSDT 📥 5M Rolling cache updated at 1753080000000
+2025-07-20 23:40:09 | INFO | [ONCE] BTCUSDT 📥 5M Rolling cache updated at 1753080000000
+2025-07-20 23:40:09 | INFO | [ONCE] DOGEUSDT 📥 5M Rolling cache updated at 1753080000000
+2025-07-20 23:40:09 | INFO | [ONCE] XRPUSDT 📥 5M Rolling cache updated at 1753080000000
+2025-07-20 23:45:15 | INFO | [ONCE] ADAUSDT 📥 5M Rolling cache updated at 1753080300000
+2025-07-20 23:45:15 | INFO | [ONCE] BNBUSDT 📥 5M Rolling cache updated at 1753080300000
+2025-07-20 23:45:15 | INFO | [ONCE] BTCUSDT 📥 5M Rolling cache updated at 1753080300000
+2025-07-20 23:45:15 | INFO | [ONCE] DOGEUSDT 📥 5M Rolling cache updated at 1753080300000
+2025-07-20 23:45:16 | INFO | [ONCE] XRPUSDT 📥 5M Rolling cache updated at 1753080300000
+2025-07-20 23:50:05 | INFO | [ONCE] ADAUSDT 📥 5M Rolling cache updated at 1753080600000
+2025-07-20 23:50:05 | INFO | [ONCE] BNBUSDT 📥 5M Rolling cache updated at 1753080600000
+2025-07-20 23:50:06 | INFO | [ONCE] BTCUSDT 📥 5M Rolling cache updated at 1753080600000
+2025-07-20 23:50:06 | INFO | [ONCE] DOGEUSDT 📥 5M Rolling cache updated at 1753080600000
+2025-07-20 23:50:06 | INFO | [ONCE] XRPUSDT 📥 5M Rolling cache updated at 1753080600000
+2025-07-20 23:55:12 | INFO | [ONCE] ADAUSDT 📥 5M Rolling cache updated at 1753080900000
+2025-07-20 23:55:12 | INFO | [ONCE] BNBUSDT 📥 5M Rolling cache updated at 1753080900000
+2025-07-20 23:55:12 | INFO | [ONCE] BTCUSDT 📥 5M Rolling cache updated at 1753080900000
+2025-07-20 23:55:12 | INFO | [ONCE] DOGEUSDT 📥 5M Rolling cache updated at 1753080900000
+2025-07-20 23:55:13 | INFO | [ONCE] XRPUSDT 📥 5M Rolling cache updated at 1753080900000

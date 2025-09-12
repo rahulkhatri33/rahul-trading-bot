@@ -1,0 +1,16 @@
+2025-07-12 00:29:13 | DEBUG | [ONCE] ✅ Symbol precision file loaded.
+2025-07-12 00:29:15 | DEBUG | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-12 00:29:15 | DEBUG | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-12 00:29:15 | DEBUG | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-12 00:29:15 | DEBUG | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-12 00:29:15 | DEBUG | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-12 00:29:15 | DEBUG | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-12 00:29:15 | DEBUG | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-12 00:29:15 | DEBUG | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-12 00:29:15 | DEBUG | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-12 00:29:15 | DEBUG | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-12 00:29:16 | DEBUG | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-12 00:29:16 | DEBUG | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-12 00:29:16 | DEBUG | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-12 00:29:16 | DEBUG | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-12 00:29:16 | DEBUG | [ONCE] 🔧 scalper_rolling initialized | maxlen=500 | pairs=5

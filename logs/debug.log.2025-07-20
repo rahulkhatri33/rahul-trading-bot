@@ -1,0 +1,135 @@
+2025-07-20 02:12:23 | DEBUG | 🌀 log rollover for debug
+2025-07-20 02:12:23 | DEBUG | 🌀 log rollover for warn
+2025-07-20 02:12:23 | DEBUG | 💾 Positions saved successfully.
+2025-07-20 02:12:26 | DEBUG | 🗂️ No ML cache file found.
+2025-07-20 02:12:27 | DEBUG | [ONCE] ADAUSDT ✅ 1H candles loaded: 120
+2025-07-20 02:12:27 | DEBUG | [ONCE] BNBUSDT ✅ 1H candles loaded: 120
+2025-07-20 02:12:28 | DEBUG | [ONCE] BTCUSDT ✅ 1H candles loaded: 120
+2025-07-20 02:12:28 | DEBUG | [ONCE] DOGEUSDT ✅ 1H candles loaded: 120
+2025-07-20 02:12:28 | DEBUG | [ONCE] ETHUSDT ✅ 1H candles loaded: 120
+2025-07-20 02:12:29 | DEBUG | [ONCE] HBARUSDT ✅ 1H candles loaded: 120
+2025-07-20 02:12:29 | DEBUG | [ONCE] QNTUSDT ✅ 1H candles loaded: 120
+2025-07-20 02:12:30 | DEBUG | [ONCE] SOLUSDT ✅ 1H candles loaded: 120
+2025-07-20 02:12:30 | DEBUG | [ONCE] XRPUSDT ✅ 1H candles loaded: 120
+2025-07-20 02:12:31 | DEBUG | [ONCE] ADAUSDT 📥 5M Rolling cache updated at 1753002600000
+2025-07-20 02:12:32 | DEBUG | [ONCE] 🔌 Launching Binance WebSocketApp for 1H...
+2025-07-20 02:12:32 | DEBUG | [ONCE] BNBUSDT 📥 5M Rolling cache updated at 1753002600000
+2025-07-20 02:12:32 | DEBUG | [ONCE] BTCUSDT 📥 5M Rolling cache updated at 1753002600000
+2025-07-20 02:12:32 | DEBUG | [ONCE] DOGEUSDT 📥 5M Rolling cache updated at 1753002600000
+2025-07-20 02:12:32 | DEBUG | [ONCE] XRPUSDT 📥 5M Rolling cache updated at 1753002600000
+2025-07-20 02:15:14 | DEBUG | [ONCE] ADAUSDT 📥 5M Rolling cache updated at 1753002900000
+2025-07-20 02:15:14 | DEBUG | [ONCE] BNBUSDT 📥 5M Rolling cache updated at 1753002900000
+2025-07-20 02:15:14 | DEBUG | [ONCE] BTCUSDT 📥 5M Rolling cache updated at 1753002900000
+2025-07-20 02:15:14 | DEBUG | [ONCE] DOGEUSDT 📥 5M Rolling cache updated at 1753002900000
+2025-07-20 02:15:15 | DEBUG | [ONCE] XRPUSDT 📥 5M Rolling cache updated at 1753002900000
+2025-07-20 02:20:07 | DEBUG | [ONCE] ADAUSDT 📥 5M Rolling cache updated at 1753003200000
+2025-07-20 02:20:07 | DEBUG | [ONCE] BNBUSDT 📥 5M Rolling cache updated at 1753003200000
+2025-07-20 02:20:07 | DEBUG | [ONCE] BTCUSDT 📥 5M Rolling cache updated at 1753003200000
+2025-07-20 02:20:07 | DEBUG | [ONCE] DOGEUSDT 📥 5M Rolling cache updated at 1753003200000
+2025-07-20 02:20:08 | DEBUG | [ONCE] XRPUSDT 📥 5M Rolling cache updated at 1753003200000
+2025-07-20 02:25:00 | DEBUG | [ONCE] DOGEUSDT 📥 5M Rolling cache updated at 1753003500000
+2025-07-20 02:25:01 | DEBUG | [ONCE] XRPUSDT 📥 5M Rolling cache updated at 1753003500000
+2025-07-20 02:25:16 | DEBUG | [ONCE] ADAUSDT 📥 5M Rolling cache updated at 1753003500000
+2025-07-20 02:25:16 | DEBUG | [ONCE] BNBUSDT 📥 5M Rolling cache updated at 1753003500000
+2025-07-20 02:25:16 | DEBUG | [ONCE] BTCUSDT 📥 5M Rolling cache updated at 1753003500000
+2025-07-20 02:30:09 | DEBUG | [ONCE] ADAUSDT 📥 5M Rolling cache updated at 1753003800000
+2025-07-20 02:30:09 | DEBUG | [ONCE] BNBUSDT 📥 5M Rolling cache updated at 1753003800000
+2025-07-20 02:30:09 | DEBUG | [ONCE] BTCUSDT 📥 5M Rolling cache updated at 1753003800000
+2025-07-20 02:30:10 | DEBUG | [ONCE] DOGEUSDT 📥 5M Rolling cache updated at 1753003800000
+2025-07-20 02:30:10 | DEBUG | [ONCE] XRPUSDT 📥 5M Rolling cache updated at 1753003800000
+2025-07-20 02:33:41 | DEBUG | [ONCE] ADAUSDT 💾 Rolling cache saved (500 entries).
+2025-07-20 02:33:41 | DEBUG | [ONCE] BNBUSDT 💾 Rolling cache saved (500 entries).
+2025-07-20 02:33:41 | DEBUG | [ONCE] BTCUSDT 💾 Rolling cache saved (500 entries).
+2025-07-20 02:33:41 | DEBUG | [ONCE] DOGEUSDT 💾 Rolling cache saved (500 entries).
+2025-07-20 02:33:41 | DEBUG | [ONCE] XRPUSDT 💾 Rolling cache saved (500 entries).
+2025-07-20 02:33:41 | DEBUG | [ONCE] ADAUSDT 💾 Rolling cache saved (100 entries).
+2025-07-20 02:33:41 | DEBUG | [ONCE] BNBUSDT 💾 Rolling cache saved (100 entries).
+2025-07-20 02:33:41 | DEBUG | [ONCE] BTCUSDT 💾 Rolling cache saved (100 entries).
+2025-07-20 02:33:41 | DEBUG | [ONCE] DOGEUSDT 💾 Rolling cache saved (100 entries).
+2025-07-20 02:33:41 | DEBUG | [ONCE] ETHUSDT 💾 Rolling cache saved (100 entries).
+2025-07-20 02:33:41 | DEBUG | [ONCE] HBARUSDT 💾 Rolling cache saved (100 entries).
+2025-07-20 02:33:41 | DEBUG | [ONCE] QNTUSDT 💾 Rolling cache saved (100 entries).
+2025-07-20 02:33:41 | DEBUG | [ONCE] SOLUSDT 💾 Rolling cache saved (100 entries).
+2025-07-20 02:33:41 | DEBUG | [ONCE] XRPUSDT 💾 Rolling cache saved (100 entries).
+2025-07-20 03:07:57 | DEBUG | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 03:26:26 | DEBUG | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 03:27:03 | DEBUG | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 03:27:40 | DEBUG | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 03:28:17 | DEBUG | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 03:29:04 | DEBUG | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 03:29:05 | DEBUG | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:05 | DEBUG | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:05 | DEBUG | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:05 | DEBUG | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:05 | DEBUG | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:05 | DEBUG | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:05 | DEBUG | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:05 | DEBUG | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:05 | DEBUG | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:43 | DEBUG | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 03:29:43 | DEBUG | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:43 | DEBUG | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:43 | DEBUG | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:43 | DEBUG | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:43 | DEBUG | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:43 | DEBUG | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:43 | DEBUG | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:43 | DEBUG | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:29:43 | DEBUG | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:20 | DEBUG | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 03:30:21 | DEBUG | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:21 | DEBUG | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:21 | DEBUG | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:21 | DEBUG | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:21 | DEBUG | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:21 | DEBUG | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:21 | DEBUG | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:21 | DEBUG | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:21 | DEBUG | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:58 | DEBUG | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 03:30:59 | DEBUG | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:59 | DEBUG | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:59 | DEBUG | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:59 | DEBUG | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:59 | DEBUG | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:59 | DEBUG | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:59 | DEBUG | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:59 | DEBUG | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:59 | DEBUG | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:30:59 | DEBUG | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:30:59 | DEBUG | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:30:59 | DEBUG | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:30:59 | DEBUG | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:30:59 | DEBUG | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:31:03 | DEBUG | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 03:31:04 | DEBUG | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:31:04 | DEBUG | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:31:04 | DEBUG | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:31:04 | DEBUG | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:31:04 | DEBUG | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:31:04 | DEBUG | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:31:04 | DEBUG | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:31:04 | DEBUG | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:31:04 | DEBUG | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:31:04 | DEBUG | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:31:04 | DEBUG | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:31:04 | DEBUG | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:31:04 | DEBUG | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:31:04 | DEBUG | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:33:30 | DEBUG | [ONCE] ✅ Symbol precision file loaded.
+2025-07-20 03:33:31 | DEBUG | [ONCE] ADAUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] BNBUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] BTCUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] DOGEUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] ETHUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] HBARUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] QNTUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] SOLUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] XRPUSDT 🔁 Rolling cache restored (100 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] ADAUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] BNBUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] BTCUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] DOGEUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] XRPUSDT 🔁 Rolling cache restored (500 candles).
+2025-07-20 03:33:31 | DEBUG | [ONCE] 🔧 scalper_rolling initialized | maxlen=500 | pairs=5
+2025-07-20 03:33:31 | DEBUG | 🌀 log rollover for info

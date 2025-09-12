@@ -1,0 +1,92 @@
+{
+  "BTCUSDT": {
+    "tick_size": 0.1,
+    "step_size": 0.001,
+    "min_notional": 100.0
+  },
+  "ETHUSDT": {
+    "tick_size": 0.01,
+    "step_size": 0.001,
+    "min_notional": 20.0
+  },
+  "XRPUSDT": {
+    "tick_size": 0.0001,
+    "step_size": 0.1,
+    "min_notional": 5.0
+  },
+  "TRXUSDT": {
+    "tick_size": 1e-05,
+    "step_size": 1.0,
+    "min_notional": 5.0
+  },
+  "ADAUSDT": {
+    "tick_size": 0.0001,
+    "step_size": 1.0,
+    "min_notional": 5.0
+  },
+  "BNBUSDT": {
+    "tick_size": 0.01,
+    "step_size": 0.01,
+    "min_notional": 5.0
+  },
+  "VETUSDT": {
+    "tick_size": 1e-06,
+    "step_size": 1.0,
+    "min_notional": 5.0
+  },
+  "AVAXUSDT": {
+  "tick_size": 0.01,
+  "step_size": 0.1,
+  "min_notional": 5.0
+  },
+  "THETAUSDT": {
+    "tick_size": 0.0001,
+    "step_size": 0.1,
+    "min_notional": 5.0
+  },
+  "DOGEUSDT": {
+    "tick_size": 1e-05,
+    "step_size": 1.0,
+    "min_notional": 5.0
+  },
+  "SOLUSDT": {
+    "tick_size": 0.01,
+    "step_size": 1.0,
+    "min_notional": 5.0
+  },
+  "UNIUSDT": {
+    "tick_size": 0.001,
+    "step_size": 1.0,
+    "min_notional": 5.0
+  },
+  "FILUSDT": {
+    "tick_size": 0.001,
+    "step_size": 0.1,
+    "min_notional": 5.0
+  },
+  "HBARUSDT": {
+    "tick_size": 1e-05,
+    "step_size": 1.0,
+    "min_notional": 5.0
+  },
+  "APEUSDT": {
+    "tick_size": 0.0001,
+    "step_size": 1.0,
+    "min_notional": 5.0
+  },
+  "OPUSDT": {
+    "tick_size": 0.0001,
+    "step_size": 0.1,
+    "min_notional": 5.0
+  },
+  "QNTUSDT": {
+    "tick_size": 0.01,
+    "step_size": 0.1,
+    "min_notional": 5.0
+  },
+  "ARBUSDT": {
+    "tick_size": 0.0001,
+    "step_size": 0.1,
+    "min_notional": 5.0
+  }
+}
