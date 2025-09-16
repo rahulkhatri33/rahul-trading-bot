@@ -40,3 +40,786 @@
 2025-07-20 23:31:27 | WARNING | 📁 Scalper ATR cache file not found — starting fresh.
 2025-07-20 23:32:53 | WARNING | 📁 Scalper ATR cache file not found — starting fresh.
 2025-07-20 23:32:53 | WARNING | 📁 Scalper ATR cache file not found — starting fresh.
+2025-09-15 14:18:47 [WARNING] - trading_bot - 📁 Scalper ATR cache file not found — starting fresh.
+2025-09-15 14:19:40 [WARNING] - trading_bot - 📁 Scalper ATR cache file not found — starting fresh.
+2025-09-15 14:21:00 [WARNING] - trading_bot - 📁 Scalper ATR cache file not found — starting fresh.
+2025-09-15 14:29:52 [WARNING] - trading_bot - 📁 Scalper ATR cache file not found — starting fresh.
+2025-09-15 15:37:36 [WARNING] - trading_bot - HBARUSDT ⚠️ Using ticker as estimated entry price: 0.23272 (order response lacked fill price).
+2025-09-15 15:37:36 [WARNING] - trading_bot - HBARUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 0.23970160000000001 (was 0.2343).
+2025-09-15 17:36:45 [WARNING] - trading_bot - XRPUSDT ⚠️ Using ticker as estimated entry price: 2.9877 (order response lacked fill price).
+2025-09-15 17:36:45 [WARNING] - trading_bot - XRPUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 3.0773309999999996 (was 3.0005).
+2025-09-15 17:57:47 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 17:58:52 [WARNING] - trading_bot - DOGEUSDT ⚠️ Using ticker as estimated entry price: 0.26356 (order response lacked fill price).
+2025-09-15 17:58:52 [WARNING] - trading_bot - DOGEUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 0.2714668 (was 0.2656).
+2025-09-15 17:58:54 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 17:59:23 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 17:59:53 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 18:04:02 [WARNING] - trading_bot - No Binance position for DOGEUSDT_short. Marked missing_since=1757939642; will wait 30s before removing.
+2025-09-15 18:04:02 [WARNING] - trading_bot - No Binance position for HBARUSDT_short. Marked missing_since=1757939642; will wait 30s before removing.
+2025-09-15 18:04:02 [WARNING] - trading_bot - No Binance position for XRPUSDT_short. Marked missing_since=1757939642; will wait 30s before removing.
+2025-09-15 18:04:15 [WARNING] - trading_bot - ⚠️ Cannot fetch price for HBARUSDT. Skipping this cycle.
+2025-09-15 18:04:16 [WARNING] - trading_bot - ⚠️ Cannot fetch price for XRPUSDT. Skipping this cycle.
+2025-09-15 18:04:17 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-15 18:04:20 [WARNING] - trading_bot - ⚠️ Cannot fetch price for HBARUSDT. Skipping this cycle.
+2025-09-15 18:04:21 [WARNING] - trading_bot - ⚠️ Cannot fetch price for XRPUSDT. Skipping this cycle.
+2025-09-15 18:04:22 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-15 18:04:25 [WARNING] - trading_bot - ⚠️ Cannot fetch price for HBARUSDT. Skipping this cycle.
+2025-09-15 18:04:26 [WARNING] - trading_bot - ⚠️ Cannot fetch price for XRPUSDT. Skipping this cycle.
+2025-09-15 18:04:27 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-15 18:04:30 [WARNING] - trading_bot - ⚠️ Cannot fetch price for HBARUSDT. Skipping this cycle.
+2025-09-15 18:04:31 [WARNING] - trading_bot - ⚠️ Cannot fetch price for XRPUSDT. Skipping this cycle.
+2025-09-15 18:04:32 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-15 18:04:32 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:32 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:32 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:32 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:32 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:32 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:32 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:32 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:32 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:32 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:32 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:32 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:32 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:32 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:32 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:32 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:32 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:32 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:33 [WARNING] - trading_bot - No Binance position for DOGEUSDT_short for >30s. Removing local state.
+2025-09-15 18:04:33 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for DOGEUSDT_short — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-15 18:04:33 [WARNING] - trading_bot - No Binance position for HBARUSDT_short for >30s. Removing local state.
+2025-09-15 18:04:33 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for HBARUSDT_short — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-15 18:04:33 [WARNING] - trading_bot - No Binance position for XRPUSDT_short for >30s. Removing local state.
+2025-09-15 18:04:33 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for XRPUSDT_short — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-15 18:04:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:47 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:47 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:47 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:47 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:47 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:47 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:47 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:47 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:04:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:04:47 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:02 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:02 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:02 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:02 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:02 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:02 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:02 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:02 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:02 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:17 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:17 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:17 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:18 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:18 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:18 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:18 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:18 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:18 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:18 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:05:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:05:18 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:09:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:09:47 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:09:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:09:47 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:09:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:09:47 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:09:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:09:47 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:09:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:09:47 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:09:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:09:47 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:09:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:09:47 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:09:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:09:47 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:09:47 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:09:47 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:02 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:02 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:02 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:02 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:02 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:02 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:03 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:03 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:03 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:03 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:03 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:03 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:03 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:03 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:18 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:18 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:18 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:18 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:18 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:18 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:18 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:18 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:18 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:18 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:33 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:33 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:33 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:33 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:33 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:33 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:33 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:33 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:33 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:33 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:33 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:33 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:33 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:33 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:33 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:33 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:10:33 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:10:33 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:11:50 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:11:50 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:11:50 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:11:50 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:11:50 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:11:50 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:11:50 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:11:50 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:11:50 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:11:50 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:11:50 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:11:50 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:11:50 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:11:50 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:11:50 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:11:50 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:11:50 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:11:50 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:05 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:05 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:05 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:05 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:05 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:05 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:05 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:05 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:05 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:05 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:05 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:05 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:05 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:05 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:05 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:05 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:05 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:05 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:20 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:20 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:20 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:20 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:20 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:20 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:21 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:21 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:21 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:21 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:21 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:21 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:21 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:21 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:21 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:21 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:12:21 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:12:21 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:21:24 [WARNING] - trading_bot - 📁 Scalper ATR cache file not found — starting fresh.
+2025-09-15 18:22:58 [WARNING] - trading_bot - Found Binance position DOGEUSDT_short not in local state. Syncing with SL: 0.26368341999999995, TP: 0.263051212
+2025-09-15 18:22:58 [WARNING] - trading_bot - DOGEUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 0.27132259999999997 (was 0.26368341999999995).
+2025-09-15 18:22:58 [WARNING] - trading_bot - Found Binance position HBARUSDT_short not in local state. Syncing with SL: 0.23276252999999997, TP: 0.232204458
+2025-09-15 18:22:58 [WARNING] - trading_bot - HBARUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 0.2395059 (was 0.23276252999999997).
+2025-09-15 18:22:58 [WARNING] - trading_bot - Found Binance position XRPUSDT_short not in local state. Syncing with SL: 2.9893864, TP: 2.9822190400000004
+2025-09-15 18:22:58 [WARNING] - trading_bot - XRPUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 3.0759920000000003 (was 2.9893864).
+2025-09-15 18:50:34 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:50:34 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:50:34 [WARNING] - trading_bot - No Binance position for DOGEUSDT_short. Marked missing_since=1757942434; will wait 30s before removing.
+2025-09-15 18:50:34 [WARNING] - trading_bot - No Binance position for HBARUSDT_short. Marked missing_since=1757942434; will wait 30s before removing.
+2025-09-15 18:50:34 [WARNING] - trading_bot - No Binance position for XRPUSDT_short. Marked missing_since=1757942434; will wait 30s before removing.
+2025-09-15 18:50:47 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-15 18:50:48 [WARNING] - trading_bot - ⚠️ Cannot fetch price for HBARUSDT. Skipping this cycle.
+2025-09-15 18:50:49 [WARNING] - trading_bot - ⚠️ Cannot fetch price for XRPUSDT. Skipping this cycle.
+2025-09-15 18:50:52 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-15 18:50:53 [WARNING] - trading_bot - ⚠️ Cannot fetch price for HBARUSDT. Skipping this cycle.
+2025-09-15 18:50:54 [WARNING] - trading_bot - ⚠️ Cannot fetch price for XRPUSDT. Skipping this cycle.
+2025-09-15 18:50:57 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-15 18:50:58 [WARNING] - trading_bot - ⚠️ Cannot fetch price for HBARUSDT. Skipping this cycle.
+2025-09-15 18:50:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:50:59 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:50:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:50:59 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:50:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:50:59 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:50:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:50:59 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:50:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:50:59 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:50:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:50:59 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:50:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:50:59 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:50:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:50:59 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:50:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:50:59 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:50:59 [WARNING] - trading_bot - ⚠️ Cannot fetch price for XRPUSDT. Skipping this cycle.
+2025-09-15 18:51:02 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-15 18:51:03 [WARNING] - trading_bot - ⚠️ Cannot fetch price for HBARUSDT. Skipping this cycle.
+2025-09-15 18:51:04 [WARNING] - trading_bot - ⚠️ Cannot fetch price for XRPUSDT. Skipping this cycle.
+2025-09-15 18:51:05 [WARNING] - trading_bot - No Binance position for DOGEUSDT_short for >30s. Removing local state.
+2025-09-15 18:51:05 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for DOGEUSDT_short — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-15 18:51:05 [WARNING] - trading_bot - No Binance position for HBARUSDT_short for >30s. Removing local state.
+2025-09-15 18:51:05 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for HBARUSDT_short — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-15 18:51:05 [WARNING] - trading_bot - No Binance position for XRPUSDT_short for >30s. Removing local state.
+2025-09-15 18:51:05 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for XRPUSDT_short — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-15 18:51:14 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:14 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:14 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:14 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:14 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:14 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:14 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:14 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:14 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:14 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:14 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:14 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:14 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:14 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:14 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:14 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:14 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:14 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:29 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:29 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:29 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:29 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:29 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:29 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:29 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:29 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:29 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:29 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:29 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:29 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:29 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:29 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:29 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:29 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:29 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:29 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:44 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:44 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:44 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:44 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:44 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:44 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:44 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:44 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:44 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:44 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:44 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:44 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:44 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:44 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:44 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:44 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:44 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:44 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:59 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:59 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:59 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:59 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:59 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:59 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:51:59 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:51:59 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:00 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:00 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:00 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:00 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:15 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:15 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:15 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:15 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:15 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:15 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:15 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:15 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:15 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:30 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:30 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:30 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:30 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:30 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:30 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:30 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:30 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:30 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:45 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:45 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:45 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:45 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:45 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:45 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:45 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:45 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:52:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-15 18:52:45 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-15 18:54:54 [WARNING] - trading_bot - 📁 Scalper ATR cache file not found — starting fresh.
+2025-09-15 18:58:09 [WARNING] - trading_bot - Found Binance position DOGEUSDT_short not in local state. Syncing with SL: 0.26368341999999995, TP: 0.263051212
+2025-09-15 18:58:09 [WARNING] - trading_bot - DOGEUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 0.27132259999999997 (was 0.26368341999999995).
+2025-09-15 18:58:09 [WARNING] - trading_bot - Found Binance position HBARUSDT_short not in local state. Syncing with SL: 0.23276252999999997, TP: 0.232204458
+2025-09-15 18:58:09 [WARNING] - trading_bot - HBARUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 0.2395059 (was 0.23276252999999997).
+2025-09-15 18:58:09 [WARNING] - trading_bot - Found Binance position XRPUSDT_short not in local state. Syncing with SL: 2.9893864, TP: 2.9822190400000004
+2025-09-15 18:58:09 [WARNING] - trading_bot - XRPUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 3.0759920000000003 (was 2.9893864).
+2025-09-15 19:01:13 [WARNING] - trading_bot - No Binance position for DOGEUSDT_short. Marked missing_since=1757943073; will wait 30s before removing.
+2025-09-15 19:01:14 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for DOGEUSDT_short — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 79, in start_order_monitor
+    order_monitor()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\order_watcher.py", line 57, in order_monitor
+    full_exit(symbol, direction, price, reason="SL")
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 321, in full_exit
+    position_manager.close_position(symbol, direction)
+
+2025-09-15 19:03:51 [WARNING] - trading_bot - No Binance position for HBARUSDT_short. Marked missing_since=1757943231; will wait 30s before removing.
+2025-09-15 19:03:55 [WARNING] - trading_bot - No Binance position for XRPUSDT_short. Marked missing_since=1757943235; will wait 30s before removing.
+2025-09-15 19:04:22 [WARNING] - trading_bot - No Binance position for HBARUSDT_short for >30s. Removing local state.
+2025-09-15 19:04:22 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for HBARUSDT_short — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-15 19:04:26 [WARNING] - trading_bot - No Binance position for XRPUSDT_short for >30s. Removing local state.
+2025-09-15 19:04:26 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for XRPUSDT_short — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-15 19:08:58 [WARNING] - trading_bot - BTCUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 19:09:02 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 19:09:29 [WARNING] - trading_bot - BTCUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 19:09:33 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 19:09:37 [WARNING] - trading_bot - HBARUSDT ⚠️ Using ticker as estimated entry price: 0.23334 (order response lacked fill price).
+2025-09-15 19:09:37 [WARNING] - trading_bot - HBARUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 0.2403402 (was 0.2353).
+2025-09-15 19:33:24 [WARNING] - trading_bot - DOGEUSDT ⚠️ Using ticker as estimated entry price: 0.26224 (order response lacked fill price).
+2025-09-15 19:33:24 [WARNING] - trading_bot - DOGEUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 0.2701072 (was 0.2651).
+2025-09-15 19:34:31 [WARNING] - trading_bot - Found Binance position XRPUSDT_short not in local state. Syncing with SL: 3.0116085999999997, TP: 3.00438796
+2025-09-15 19:34:31 [WARNING] - trading_bot - XRPUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 3.098858 (was 3.0116085999999997).
+2025-09-15 19:34:31 [WARNING] - trading_bot - XRPUSDT ⚠️ Using ticker as estimated entry price: 3.0104 (order response lacked fill price).
+2025-09-15 19:34:31 [WARNING] - trading_bot - XRPUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 3.100712 (was 3.043).
+2025-09-15 20:46:48 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 20:47:16 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 20:47:43 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 20:48:10 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 20:48:37 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 20:49:05 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 20:49:32 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 20:49:59 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-15 20:57:56 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for XRPUSDT_short — caller stack:
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 180, in <module>
+    run_scalper()
+  File "C:\Users\rahul\Desktop\f_trading_bot\scalper\scalper_runner.py", line 115, in run_scalper
+    execute_trade(symbol, qty, side, current_price, sl_tp.sl, sl_tp.tp, sl_tp.trailing_stop)
+  File "C:\Users\rahul\Desktop\f_trading_bot\scalper\scalper_runner.py", line 308, in execute_trade
+    position_manager.close_position(symbol, opposite_dir)
+
+2025-09-15 20:57:57 [WARNING] - trading_bot - XRPUSDT ⚠️ Using ticker as estimated entry price: 3.0332 (order response lacked fill price).
+2025-09-15 20:57:57 [WARNING] - trading_bot - XRPUSDT_long stop_loss too close to entry. Auto-adjusted stop_loss -> 2.942204 (was 3.0005).
+2025-09-15 21:15:04 [WARNING] - trading_bot - HBARUSDT trimmed quantity was zero for requested 1e-12; returning minimum allowed 22.0 (price=0.23134)
+2025-09-15 21:15:04 [WARNING] - trading_bot - No Binance position for HBARUSDT_short. Marked missing_since=1757951104; will wait 30s before removing.
+2025-09-15 21:15:35 [WARNING] - trading_bot - No Binance position for HBARUSDT_short for >30s. Removing local state.
+2025-09-15 21:15:35 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for HBARUSDT_short — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-15 21:30:05 [WARNING] - trading_bot - No Binance position for DOGEUSDT_short. Marked missing_since=1757952005; will wait 30s before removing.
+2025-09-15 21:30:05 [WARNING] - trading_bot - No Binance position for XRPUSDT_long. Marked missing_since=1757952005; will wait 30s before removing.
+2025-09-15 23:11:41 [WARNING] - trading_bot - No Binance position for XRPUSDT_long for >30s. Removing local state.
+2025-09-15 23:11:41 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for XRPUSDT_long — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-16 02:34:39 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 02:34:39 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 03:10:14 [WARNING] - trading_bot - No Binance position for DOGEUSDT_short for >30s. Removing local state.
+2025-09-16 03:10:14 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for DOGEUSDT_short — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-16 03:10:14 [WARNING] - trading_bot - Found Binance position DOGEUSDT_short not in local state. Syncing with SL: 0.26232205999999997, TP: 0.261693116
+2025-09-16 03:10:14 [WARNING] - trading_bot - DOGEUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 0.2699218 (was 0.26232205999999997).
+2025-09-16 06:51:07 [WARNING] - trading_bot - No Binance position for DOGEUSDT_short. Marked missing_since=1757985667; will wait 30s before removing.
+2025-09-16 06:51:10 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-16 06:51:13 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-16 06:51:16 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-16 06:51:19 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-16 06:51:22 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-16 06:51:25 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-16 06:51:28 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-16 06:51:29 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:29 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:30 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:30 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:30 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:30 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:30 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:30 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:30 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:30 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:31 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-16 06:51:34 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-16 06:51:37 [WARNING] - trading_bot - ⚠️ Cannot fetch price for DOGEUSDT. Skipping this cycle.
+2025-09-16 06:51:38 [WARNING] - trading_bot - No Binance position for DOGEUSDT_short for >30s. Removing local state.
+2025-09-16 06:51:38 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for DOGEUSDT_short — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-16 06:51:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:45 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:45 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:45 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:45 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:45 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:45 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:45 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:45 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:51:45 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:51:45 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:00 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:00 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:00 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:00 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:00 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:00 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:00 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:00 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:00 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:00 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:00 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:00 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:00 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:00 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:00 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:00 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:00 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:00 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:15 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:15 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:15 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:15 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:15 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:15 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:15 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:15 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:15 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:15 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:30 [WARNING] - trading_bot - ADAUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:30 [WARNING] - trading_bot - BNBUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:30 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:30 [WARNING] - trading_bot - DOGEUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:30 [WARNING] - trading_bot - ETHUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:30 [WARNING] - trading_bot - HBARUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:30 [WARNING] - trading_bot - QNTUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:30 [WARNING] - trading_bot - SOLUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 06:52:30 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 06:52:30 [WARNING] - trading_bot - XRPUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 08:23:33 [WARNING] - trading_bot - Found Binance position DOGEUSDT_short not in local state. Syncing with SL: 0.26232205999999997, TP: 0.261693116
+2025-09-16 08:23:33 [WARNING] - trading_bot - DOGEUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 0.2699218 (was 0.26232205999999997).
+2025-09-16 08:46:13 [WARNING] - trading_bot - No klines provided for DataFrame conversion
+2025-09-16 08:46:13 [WARNING] - trading_bot - BTCUSDT 📉 Empty DataFrame, skipping...
+2025-09-16 09:02:31 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for DOGEUSDT_short — caller stack:
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 180, in <module>
+    run_scalper()
+  File "C:\Users\rahul\Desktop\f_trading_bot\scalper\scalper_runner.py", line 115, in run_scalper
+    execute_trade(symbol, qty, side, current_price, sl_tp.sl, sl_tp.tp, sl_tp.trailing_stop)
+  File "C:\Users\rahul\Desktop\f_trading_bot\scalper\scalper_runner.py", line 308, in execute_trade
+    position_manager.close_position(symbol, opposite_dir)
+
+2025-09-16 09:02:32 [WARNING] - trading_bot - DOGEUSDT ⚠️ Using ticker as estimated entry price: 0.26783 (order response lacked fill price).
+2025-09-16 09:02:32 [WARNING] - trading_bot - DOGEUSDT_long stop_loss too close to entry. Auto-adjusted stop_loss -> 0.2597951 (was 0.2658).
+2025-09-16 09:03:51 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-16 09:04:19 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-16 09:04:47 [WARNING] - trading_bot - ETHUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-16 09:39:22 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for DOGEUSDT_long — caller stack:
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 180, in <module>
+    run_scalper()
+  File "C:\Users\rahul\Desktop\f_trading_bot\scalper\scalper_runner.py", line 115, in run_scalper
+    execute_trade(symbol, qty, side, current_price, sl_tp.sl, sl_tp.tp, sl_tp.trailing_stop)
+  File "C:\Users\rahul\Desktop\f_trading_bot\scalper\scalper_runner.py", line 308, in execute_trade
+    position_manager.close_position(symbol, opposite_dir)
+
+2025-09-16 09:39:24 [WARNING] - trading_bot - DOGEUSDT ⚠️ Using ticker as estimated entry price: 0.26605 (order response lacked fill price).
+2025-09-16 09:39:24 [WARNING] - trading_bot - DOGEUSDT_short stop_loss too close to entry. Auto-adjusted stop_loss -> 0.2740315 (was 0.2686).
+2025-09-16 09:47:46 [WARNING] - trading_bot - DOGEUSDT trimmed quantity was zero for requested 1e-12; returning minimum allowed 20.0 (price=0.26315)
+2025-09-16 09:53:41 [WARNING] - trading_bot - BNBUSDT ⚠️ Quantity below minimum, using 0.1
+2025-09-16 09:53:43 [WARNING] - trading_bot - BNBUSDT ⚠️ Using ticker as estimated entry price: 920.9 (order response lacked fill price).
+2025-09-16 09:53:43 [WARNING] - trading_bot - BNBUSDT_long stop_loss too close to entry. Auto-adjusted stop_loss -> 893.273 (was 916.77).
+2025-09-16 10:35:38 [WARNING] - trading_bot - No Binance position for DOGEUSDT_short. Marked missing_since=1757999138; will wait 30s before removing.
+2025-09-16 10:35:39 [WARNING] - trading_bot - DOGEUSDT-short ⛔ Binance reports no live position. Preserving local state for reconciliation. Snapshot: [{'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26605121', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'LONG', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757995762890, 'isolated': True, 'adlQuantile': 0}, {'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26605121', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'SHORT', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757999137602, 'isolated': True, 'adlQuantile': 0}]
+2025-09-16 10:35:42 [WARNING] - trading_bot - DOGEUSDT-short ⛔ Binance reports no live position. Preserving local state for reconciliation. Snapshot: [{'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26605000', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'LONG', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757995762890, 'isolated': True, 'adlQuantile': 0}, {'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26605000', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'SHORT', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757999137602, 'isolated': True, 'adlQuantile': 0}]
+2025-09-16 10:35:45 [WARNING] - trading_bot - DOGEUSDT-short ⛔ Binance reports no live position. Preserving local state for reconciliation. Snapshot: [{'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26608405', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'LONG', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757995762890, 'isolated': True, 'adlQuantile': 0}, {'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26608405', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'SHORT', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757999137602, 'isolated': True, 'adlQuantile': 0}]
+2025-09-16 10:35:48 [WARNING] - trading_bot - DOGEUSDT-short ⛔ Binance reports no live position. Preserving local state for reconciliation. Snapshot: [{'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26610000', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'LONG', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757995762890, 'isolated': True, 'adlQuantile': 0}, {'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26610000', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'SHORT', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757999137602, 'isolated': True, 'adlQuantile': 0}]
+2025-09-16 10:35:51 [WARNING] - trading_bot - DOGEUSDT-short ⛔ Binance reports no live position. Preserving local state for reconciliation. Snapshot: [{'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26611000', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'LONG', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757995762890, 'isolated': True, 'adlQuantile': 0}, {'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26611000', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'SHORT', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757999137602, 'isolated': True, 'adlQuantile': 3}]
+2025-09-16 10:35:55 [WARNING] - trading_bot - DOGEUSDT-short ⛔ Binance reports no live position. Preserving local state for reconciliation. Snapshot: [{'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26614000', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'LONG', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757995762890, 'isolated': True, 'adlQuantile': 0}, {'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26614000', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'SHORT', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757999137602, 'isolated': True, 'adlQuantile': 0}]
+2025-09-16 10:35:58 [WARNING] - trading_bot - DOGEUSDT-short ⛔ Binance reports no live position. Preserving local state for reconciliation. Snapshot: [{'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26617825', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'LONG', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757995762890, 'isolated': True, 'adlQuantile': 0}, {'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26617825', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'SHORT', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757999137602, 'isolated': True, 'adlQuantile': 0}]
+2025-09-16 10:36:01 [WARNING] - trading_bot - DOGEUSDT-short ⛔ Binance reports no live position. Preserving local state for reconciliation. Snapshot: [{'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26621313', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'LONG', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757995762890, 'isolated': True, 'adlQuantile': 0}, {'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26621313', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'SHORT', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757999137602, 'isolated': True, 'adlQuantile': 0}]
+2025-09-16 10:36:04 [WARNING] - trading_bot - DOGEUSDT-short ⛔ Binance reports no live position. Preserving local state for reconciliation. Snapshot: [{'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26629000', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'LONG', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757995762890, 'isolated': True, 'adlQuantile': 0}, {'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26629000', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'SHORT', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757999137602, 'isolated': True, 'adlQuantile': 0}]
+2025-09-16 10:36:08 [WARNING] - trading_bot - DOGEUSDT-short ⛔ Binance reports no live position. Preserving local state for reconciliation. Snapshot: [{'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26628870', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'LONG', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757995762890, 'isolated': True, 'adlQuantile': 0}, {'symbol': 'DOGEUSDT', 'positionAmt': '0', 'entryPrice': '0.0', 'breakEvenPrice': '0.0', 'markPrice': '0.26628870', 'unRealizedProfit': '0.00000000', 'liquidationPrice': '0', 'leverage': '20', 'maxNotionalValue': '4000000', 'marginType': 'isolated', 'isolatedMargin': '0.00000000', 'isAutoAddMargin': 'false', 'positionSide': 'SHORT', 'notional': '0', 'isolatedWallet': '0', 'updateTime': 1757999137602, 'isolated': True, 'adlQuantile': 0}]
+2025-09-16 10:36:09 [WARNING] - trading_bot - No Binance position for DOGEUSDT_short for >30s. Removing local state.
+2025-09-16 10:36:09 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for DOGEUSDT_short — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-16 10:45:33 [WARNING] - trading_bot - BNBUSDT trimmed quantity was zero for requested 1e-12; returning minimum allowed 0.01 (price=925.28)
+2025-09-16 10:45:33 [WARNING] - trading_bot - No Binance position for BNBUSDT_long. Marked missing_since=1757999733; will wait 30s before removing.
+2025-09-16 10:46:04 [WARNING] - trading_bot - No Binance position for BNBUSDT_long for >30s. Removing local state.
+2025-09-16 10:46:04 [WARNING] - trading_bot - [DEBUG_CLOSE] close_position called for BNBUSDT_long — caller stack:
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\runner.py", line 76, in start_exit_manager
+    price_poll_exit_loop()
+  File "C:\Users\rahul\Desktop\f_trading_bot\live\exit_manager.py", line 561, in price_poll_exit_loop
+    position_manager.sync_with_binance()
+  File "C:\Users\rahul\Desktop\f_trading_bot\core\position_manager.py", line 822, in sync_with_binance
+    self.close_position(sym, direction)
+
+2025-09-16 11:11:48 [WARNING] - trading_bot - 📁 Scalper ATR cache file not found — starting fresh.

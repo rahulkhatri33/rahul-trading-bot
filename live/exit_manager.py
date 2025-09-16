@@ -16,82 +16,41 @@ import traceback
 from datetime import datetime
 from typing import Optional, Dict, Any
 
-# python-binance imports left as-is (many parts of your code expect them)
-try:
-    from binance.client import Client
-    from binance.exceptions import BinanceAPIException
-except Exception:
-    Client = None
-    BinanceAPIException = Exception
+from binance.client import Client
+from binance.exceptions import BinanceAPIException
 
 from core.logger import global_logger as logger
 from core.position_manager import position_manager
 from core import order_tracker
-from core.symbol_precision import get_trimmed_quantity, get_trimmed_price
-from core.config import is_dry_run_enabled, get_config
-from engine.sl_tp_engine import calculate_scalper_trailing_stop
+from core.symbol_precision import get_trimmed_quantity
+from core.config import is_dry_run_enabled
+from engine.sl_tp_engine import calculate_scalper_trailing_stop, calculate_trailing_stop_ml
 from utils.price_fetcher import get_latest_price
 from utils.notifier import notifier
-
-# graceful import of optional modules (analytics, sl_tracker)
-try:
-    from core.analytics.trade_recorder import append_lifecycle, snapshot_equity
-except Exception:
-    append_lifecycle = None
-    snapshot_equity = None
-
-try:
-    from scalper.sl_tracker import record_scalper_sl_hit
-except Exception:
-    def record_scalper_sl_hit(): pass
-
+from core.analytics.trade_recorder import append_lifecycle, snapshot_equity
+from scalper.sl_tracker import record_scalper_sl_hit
 from dotenv import load_dotenv
+
+# fallback discord logger (used when notifier fails)
 from utils.discord_logger import send_discord_log
 
 load_dotenv()
-
-# Try to reuse an existing binance wrapper client if available (makes wrappers compatible)
-try:
-    import binance_utils
-except Exception:
-    binance_utils = None
 
 # ENV credentials detection
 ENV_API_KEY = os.getenv("BINANCE_API_KEY") or os.getenv("BINANCE_API_KEY_LOCAL")
 ENV_API_SECRET = os.getenv("BINANCE_API_SECRET") or os.getenv("BINANCE_API_SECRET_LOCAL")
 HAS_API_CREDENTIALS = bool(ENV_API_KEY and ENV_API_SECRET)
 
-# Old-style client from utils.exchange or directly constructed client might be used in your setup.
-# Try to preserve existing behavior: if a top-level 'client' exists elsewhere, it's used; otherwise, attempt to create one.
 client = None
-# If an external client was already created in the project, previous import normally assigned it; attempt to reuse it.
-try:
-    # prefer any existing client object imported in other modules (some setups expose utils.exchange.client)
-    from utils.exchange import client as exchange_client
-    client = exchange_client
-except Exception:
-    client = None
-
-# If no client and binary creds present, try to init a local Client (legacy behavior)
-if client is None and HAS_API_CREDENTIALS and Client is not None:
+if HAS_API_CREDENTIALS:
     try:
         client = Client(api_key=ENV_API_KEY, api_secret=ENV_API_SECRET)
     except Exception as e:
         logger.log_warning(f"Failed to init Binance client: {e}")
         client = None
-
-# If still no client, try to reuse binance_utils' underlying api client
-if client is None and binance_utils is not None:
-    try:
-        candidate = getattr(binance_utils, "_default_client", None)
-        if candidate and getattr(candidate, "client", None):
-            client = candidate.client
-            logger.log_info("exit_manager: using binance_utils._default_client.client as fallback client")
-    except Exception:
-        client = None
-
-if not client:
-    logger.log_info("No Binance API client available — exit_manager running in safe/dry-run mode (no private API calls).")
+        HAS_API_CREDENTIALS = False
+else:
+    logger.log_info("No Binance API credentials found — exit_manager running in safe/dry-run mode (no private API calls).")
 
 BINANCE_MISSING_GRACE_SECONDS = int(os.getenv("BINANCE_MISSING_GRACE_SECONDS", "30"))
 
@@ -125,7 +84,7 @@ def _pos_is_sane(pos: Dict[str, Any]) -> bool:
         entry = _to_float_safe(pos.get("entry_price"))
         sl = _to_float_safe(pos.get("stop_loss"))
         tp = _to_float_safe(pos.get("take_profit"))
-        size = _to_float_safe(pos.get("size") or pos.get("qty"))
+        size = _to_float_safe(pos.get("size"))
         if entry is None or sl is None or tp is None or size is None:
             return False
         if entry <= 0 or size <= 0:
@@ -133,6 +92,8 @@ def _pos_is_sane(pos: Dict[str, Any]) -> bool:
 
         # use config min distance
         try:
+            from core.config import get_config
+
             cfg = get_config()
             scalper_settings = cfg.get("scalper_settings", {}) if isinstance(cfg, dict) else {}
             min_sl_pct = float(scalper_settings.get("min_sl_distance_pct", 0.0005))
@@ -206,11 +167,7 @@ def _is_account_hedge_mode() -> bool:
 
 
 def _send_market_exit(symbol: str, direction: str, qty: float) -> Optional[Dict[str, Any]]:
-    """Place market exit order. If dry-run or no credentials, simulate response (executedQty).
-
-    Improved: pass current price to trimming routine to compute min allowed qty; if trimmed == 0,
-    attempt to query Binance for remaining position and close that.
-    """
+    """Place market exit order. If dry-run or no credentials, simulate response (executedQty)."""
     if qty <= 0:
         logger.log_error(f"{symbol} ❌ Invalid exit qty: {qty}")
         return None
@@ -220,62 +177,33 @@ def _send_market_exit(symbol: str, direction: str, qty: float) -> Optional[Dict[
         logger.log_info(f"{symbol} 🧪 DRY RUN / no API creds: would exit {direction} qty={qty}")
         return {"status": "dry_run", "executedQty": float(qty)}
 
-    # fetch an approximate current price to help compute min notional -> min qty
-    try:
-        market_price = get_latest_price(symbol) or None
-    except Exception:
-        market_price = None
-
-    # trim qty using symbol precision helper (pass price to avoid trimmed-to-zero)
-    trimmed_qty = get_trimmed_quantity(symbol, float(qty), price=market_price)
-    if trimmed_qty <= 0:
-        logger.log_warning(f"{symbol} ❗ Trimmed exit qty is zero after precision (requested {qty}). Trying fallback by querying Binance for remaining position.")
-        # Try to query Binance for actual remaining position amount to close
-        try:
-            positions = client.futures_position_information(symbol=symbol)
-            remaining_amt = 0.0
-            for p in positions:
-                try:
-                    amt = float(p.get("positionAmt", 0.0))
-                except Exception:
-                    amt = 0.0
-                if abs(amt) > 0:
-                    remaining_amt = abs(amt)
-                    break
-            if remaining_amt > 0:
-                logger.log_info(f"{symbol} Fallback remaining_amt from Binance: {remaining_amt}. Attempting to trim and close that.")
-                trimmed_qty2 = get_trimmed_quantity(symbol, float(remaining_amt), price=market_price)
-                if trimmed_qty2 <= 0:
-                    logger.log_error(f"{symbol} Fallback trimmed qty still zero (remaining_amt={remaining_amt}). Aborting exit to avoid zero-order.")
-                    return None
-                # proceed with trimmed_qty2
-                trimmed_qty = trimmed_qty2
-            else:
-                logger.log_error(f"{symbol} Binance reports zero remaining position; aborting exit.")
-                return None
-        except Exception as e:
-            logger.log_error(f"{symbol} ❌ Could not query Binance for fallback remaining_amt: {e}")
-            logger.log_debug(traceback.format_exc())
-            return None
-
-    # Prepare payload
     close_side = Client.SIDE_SELL if direction == "long" else Client.SIDE_BUY
+    trimmed_qty = get_trimmed_quantity(symbol, float(qty))
+    if trimmed_qty <= 0:
+        logger.log_error(f"{symbol} ❌ Trimmed exit qty is zero after precision: {trimmed_qty}")
+        return None
+
     try:
         is_hedge = _is_account_hedge_mode()
-    except Exception:
-        is_hedge = False
+        payload = {"symbol": symbol, "side": close_side, "type": Client.ORDER_TYPE_MARKET, "quantity": trimmed_qty}
+        if is_hedge:
+            payload["positionSide"] = "LONG" if direction == "long" else "SHORT"
+        else:
+            payload["reduceOnly"] = True
 
-    payload = {"symbol": symbol, "side": close_side, "type": Client.ORDER_TYPE_MARKET, "quantity": trimmed_qty}
-    if is_hedge:
-        payload["positionSide"] = "LONG" if direction == "long" else "SHORT"
-    else:
-        payload["reduceOnly"] = True
-
-    logger.log_info(f"{symbol} 🔁 Sending market exit payload: {payload}")
-    try:
+        logger.log_info(f"{symbol} 🔁 Sending market exit payload: {payload}")
         resp = client.futures_create_order(**payload)
         logger.log_info(f"{symbol} ✅ Exit order response: {resp}")
         return resp
+    except AssertionError as e:
+        logger.log_critical(f"{symbol} ❌ Assertion while exiting (probably missing creds): {e}")
+        logger.log_debug(traceback.format_exc())
+        return None
+    except BinanceAPIException as e:
+        # Catch Binance API errors and return None so caller can handle
+        logger.log_critical(f"{symbol} ❌ BinanceAPIException while exiting: {getattr(e, 'message', str(e))}")
+        logger.log_debug(traceback.format_exc())
+        return None
     except Exception as e:
         logger.log_critical(f"{symbol} ❌ Unexpected error while exiting: {e}")
         logger.log_debug(traceback.format_exc())
@@ -320,10 +248,9 @@ def full_exit(symbol: str, direction: str, price: float, reason: str) -> None:
     pos = position_manager.get_position(symbol, direction)
     if not pos:
         logger.log_warning(f"{symbol}-{direction} ❗ Local position record missing at exit time.")
-        order_tracker.clear(symbol, direction)
         return
 
-    qty = _to_float_safe(pos.get("size") or pos.get("qty") or 0.0) or 0.0
+    qty = _to_float_safe(pos.get("size") or 0.0) or 0.0
     entry_price = _to_float_safe(pos.get("entry_price")) or 0.0
     sl = _to_float_safe(pos.get("stop_loss")) or 0.0
     tp = _to_float_safe(pos.get("take_profit")) or 0.0
@@ -331,7 +258,6 @@ def full_exit(symbol: str, direction: str, price: float, reason: str) -> None:
     if qty <= 0:
         logger.log_warning(f"{symbol}-{direction} ⚠️ Attempt to close empty or zero-size position.")
         position_manager.close_position(symbol, direction)
-        order_tracker.clear(symbol, direction)
         return
 
     response = _send_market_exit(symbol, direction, qty)
@@ -344,7 +270,6 @@ def full_exit(symbol: str, direction: str, price: float, reason: str) -> None:
                 send_discord_log(f"{symbol} ❌ EXIT FAILED — Market exit not placed. Will retry.")
             except Exception:
                 logger.log_debug("Notifier & discord failed sending critical exit failure.")
-        order_tracker.clear(symbol, direction)
         return
 
     # compute approximate pnl if entry_price valid
@@ -357,36 +282,32 @@ def full_exit(symbol: str, direction: str, price: float, reason: str) -> None:
 
     # lifecycle append with fallback to file
     try:
-        if append_lifecycle:
-            append_lifecycle(
-                {
-                    "timestamp": datetime.now().astimezone().isoformat(),
-                    "symbol": symbol,
-                    "direction": direction,
-                    "event_type": f"{reason}_EXIT",
-                    "price": float(price),
-                    "qty": qty,
-                    "entry_price": entry_price,
-                    "pnl": pnl,
-                    "stop_loss": sl,
-                    "take_profit": tp,
-                    "reason": reason,
-                    "source": pos.get("source", "unknown"),
-                }
-            )
-        else:
+        append_lifecycle(
+            {
+                "timestamp": datetime.now().astimezone().isoformat(),
+                "symbol": symbol,
+                "direction": direction,
+                "event_type": f"{reason}_EXIT",
+                "price": float(price),
+                "qty": qty,
+                "entry_price": entry_price,
+                "pnl": pnl,
+                "stop_loss": sl,
+                "take_profit": tp,
+                "reason": reason,
+                "source": pos.get("source", "unknown"),
+            }
+        )
+    except Exception:
+        try:
             # fallback CSV write
             with open("trade_exit_fallback.csv", "a") as f:
                 f.write(f"{datetime.utcnow().isoformat()},{symbol},{direction},{reason}_EXIT,{price},{qty},{entry_price},{pnl}\n")
             logger.log_info(f"{symbol} fallback exit row written.")
-    except Exception:
-        logger.log_debug("Failed to append lifecycle (fallback used)")
+        except Exception:
+            logger.log_debug("Failed to write fallback exit CSV.")
 
-    try:
-        if snapshot_equity:
-            snapshot_equity(tag=f"{reason}_EXIT")
-    except Exception:
-        pass
+    snapshot_equity(tag=f"{reason}_EXIT")
 
     logger.log_info(f"{symbol}-{direction} CLOSED — Reason: {reason} | Exit @ {price:.6f} | PnL: {pnl}")
     try:
@@ -418,6 +339,7 @@ def handle_tp1(symbol: str, direction: str, price: float) -> None:
     # Sanity gate — if pos not sane, skip TP1 and preserve local state
     if not _pos_is_sane(pos):
         logger.log_warning(f"{symbol}-{direction} TP1 skipped: position not sane (will not attempt partial close).")
+        # mark missing for manual reconciliation if entry_price invalid
         try:
             if not _to_float_safe(pos.get("entry_price")):
                 pos["binance_missing_since"] = int(time.time())
@@ -426,23 +348,17 @@ def handle_tp1(symbol: str, direction: str, price: float) -> None:
             logger.log_debug("Failed to mark binance_missing_since in TP1 sanity fallback.")
         return
 
-    total_size = _to_float_safe(pos.get("size") or pos.get("qty") or 0.0)
+    total_size = _to_float_safe(pos.get("size") or 0.0)
     if total_size <= 0:
         logger.log_warning(f"{symbol}-{direction} TP1: size <= 0; skipping.")
         return
 
     remainder_size = total_size / 2.0
+    trimmed_remainder = get_trimmed_quantity(symbol, remainder_size)
 
-    # Use current price to help trimming logic
-    try:
-        market_price = get_latest_price(symbol) or None
-    except Exception:
-        market_price = None
-
-    trimmed_remainder = get_trimmed_quantity(symbol, remainder_size, price=market_price)
     if trimmed_remainder <= 0:
         logger.log_warning(f"{symbol}-{direction} ⚠️ TP1 remainder trimmed to <=0 ({trimmed_remainder}).")
-        if client is not None and HAS_API_CREDENTIALS:
+        if HAS_API_CREDENTIALS and client is not None:
             try:
                 positions = client.futures_position_information(symbol=symbol)
                 remaining_amt = 0.0
@@ -457,12 +373,7 @@ def handle_tp1(symbol: str, direction: str, price: float) -> None:
 
                 if remaining_amt > 0:
                     logger.log_info(f"{symbol} Closing remaining amount from Binance: {remaining_amt}")
-                    # attempt to trim remaining_amt with market price to avoid zero trim
-                    fallback_trim = get_trimmed_quantity(symbol, remaining_amt, price=market_price)
-                    if fallback_trim <= 0:
-                        logger.log_error(f"{symbol} Fallback trim of remaining_amt produced zero. Aborting.")
-                        return
-                    resp = _send_market_exit(symbol, direction, fallback_trim)
+                    resp = _send_market_exit(symbol, direction, remaining_amt)
                     if resp is None:
                         logger.log_critical(f"{symbol} ❌ Failed to close remaining after TP1.")
                         try:
@@ -488,34 +399,30 @@ def handle_tp1(symbol: str, direction: str, price: float) -> None:
                         logger.log_debug("Failed to persist updated size after remaining-close.")
 
                     try:
-                        if append_lifecycle:
-                            append_lifecycle(
-                                {
-                                    "timestamp": datetime.now().astimezone().isoformat(),
-                                    "symbol": symbol,
-                                    "direction": direction,
-                                    "event_type": "TP1_EXIT",
-                                    "price": float(price),
-                                    "qty": executed_qty,
-                                    "entry_price": float(pos.get("entry_price", 0.0)),
-                                    "pnl": (float(price) - float(pos.get("entry_price", 0.0))) * (executed_qty if direction == "long" else -executed_qty),
-                                    "stop_loss": float(pos.get("entry_price", 0.0)),
-                                    "take_profit": float(pos.get("take_profit", 0.0)),
-                                    "reason": "TP1 partial hit (remaining-close)",
-                                    "source": pos.get("source", "N/A"),
-                                }
-                            )
-                        else:
+                        append_lifecycle(
+                            {
+                                "timestamp": datetime.now().astimezone().isoformat(),
+                                "symbol": symbol,
+                                "direction": direction,
+                                "event_type": "TP1_EXIT",
+                                "price": float(price),
+                                "qty": executed_qty,
+                                "entry_price": float(pos.get("entry_price", 0.0)),
+                                "pnl": (float(price) - float(pos.get("entry_price", 0.0))) * (executed_qty if direction == "long" else -executed_qty),
+                                "stop_loss": float(pos.get("entry_price", 0.0)),
+                                "take_profit": float(pos.get("take_profit", 0.0)),
+                                "reason": "TP1 partial hit (remaining-close)",
+                                "source": pos.get("source", "N/A"),
+                            }
+                        )
+                    except Exception:
+                        try:
                             with open("trade_exit_fallback.csv", "a") as f:
                                 f.write(f"{datetime.utcnow().isoformat()},{symbol},TP1_EXIT,{price},{executed_qty},{pos.get('entry_price')}\n")
-                    except Exception:
-                        logger.log_debug("Fallback write failed for TP1 remaining-close.")
+                        except Exception:
+                            logger.log_debug("Fallback write failed for TP1 remaining-close.")
 
-                    try:
-                        if snapshot_equity: snapshot_equity(tag="TP1_EXIT")
-                    except Exception:
-                        pass
-
+                    snapshot_equity(tag="TP1_EXIT")
                     try:
                         notifier.send_info(f"{symbol} 🎯 Partial TP filled (remaining-close): closed {executed_qty} @ {price:.6f}")
                     except Exception:
@@ -597,6 +504,7 @@ def handle_tp1(symbol: str, direction: str, price: float) -> None:
     try:
         current_size = _to_float_safe(pos.get("size") or 0.0)
         new_size = max(0.0, current_size - executed_qty)
+        # Only set stop_loss to entry_price if entry_price is numeric and > 0
         entry_val = _to_float_safe(pos.get("entry_price")) or 0.0
         sl_to_set = entry_val if entry_val > 0 else pos.get("stop_loss", pos.get("entry_price", price))
         position_manager.update_position(symbol, direction, {"size": new_size, "tp1_triggered": True, "awaiting_trail_activation": True, "stop_loss": sl_to_set})
@@ -605,35 +513,30 @@ def handle_tp1(symbol: str, direction: str, price: float) -> None:
         logger.log_debug(traceback.format_exc())
 
     try:
-        if append_lifecycle:
-            append_lifecycle(
-                {
-                    "timestamp": datetime.now().astimezone().isoformat(),
-                    "symbol": symbol,
-                    "direction": direction,
-                    "event_type": "TP1_EXIT",
-                    "price": float(price),
-                    "qty": executed_qty,
-                    "entry_price": float(pos.get("entry_price", 0.0)),
-                    "pnl": (float(price) - float(pos.get("entry_price", 0.0))) * (executed_qty if direction == "long" else -executed_qty),
-                    "stop_loss": float(pos.get("entry_price", 0.0)) if _to_float_safe(pos.get("entry_price")) else pos.get("stop_loss"),
-                    "take_profit": float(pos.get("take_profit", 0.0)),
-                    "reason": "TP1 partial hit",
-                    "source": pos.get("source", "N/A"),
-                }
-            )
-        else:
+        append_lifecycle(
+            {
+                "timestamp": datetime.now().astimezone().isoformat(),
+                "symbol": symbol,
+                "direction": direction,
+                "event_type": "TP1_EXIT",
+                "price": float(price),
+                "qty": executed_qty,
+                "entry_price": float(pos.get("entry_price", 0.0)),
+                "pnl": (float(price) - float(pos.get("entry_price", 0.0))) * (executed_qty if direction == "long" else -executed_qty),
+                "stop_loss": float(pos.get("entry_price", 0.0)) if _to_float_safe(pos.get("entry_price")) else pos.get("stop_loss"),
+                "take_profit": float(pos.get("take_profit", 0.0)),
+                "reason": "TP1 partial hit",
+                "source": pos.get("source", "N/A"),
+            }
+        )
+    except Exception:
+        try:
             with open("trade_exit_fallback.csv", "a") as f:
                 f.write(f"{datetime.utcnow().isoformat()},{symbol},TP1_EXIT,{price},{executed_qty},{pos.get('entry_price')}\n")
-    except Exception:
-        logger.log_debug("Fallback write failed for TP1_exit.")
+        except Exception:
+            logger.log_debug("Fallback write failed for TP1_exit.")
 
-    try:
-        if snapshot_equity:
-            snapshot_equity(tag="TP1_EXIT")
-    except Exception:
-        pass
-
+    snapshot_equity(tag="TP1_EXIT")
     logger.log_info(f"{symbol}-{direction} 🏁 TP1 Partial Exit: closed {executed_qty} @ {price:.6f}, SL moved to Entry.")
     try:
         notifier.send_info(f"{symbol} 🎯 Partial TP triggered: closed {executed_qty} @ {price:.6f}, SL -> BE")
@@ -663,12 +566,13 @@ def price_poll_exit_loop() -> None:
 
             for key, pos in positions_snapshot:
                 try:
-                    # same logic as before (kept intact) — we rely on _pos_is_sane and the improved helpers above
                     symbol = pos.get("symbol")
                     direction = pos.get("direction")
+                    # Basic present checks
                     if not symbol or not direction:
                         continue
 
+                    # Skip exit evaluation for unsane positions (prevents spurious immediate exits)
                     if not _pos_is_sane(pos):
                         logger.log_debug(f"{key} skipped: position not sane for exit checks (entry/sl/tp/size invalid).")
                         continue
@@ -676,8 +580,10 @@ def price_poll_exit_loop() -> None:
                     sl = _to_float_safe(pos.get("stop_loss", 0.0)) or 0.0
                     tp = _to_float_safe(pos.get("take_profit", 0.0)) or 0.0
                     peak_price = pos.get("peak_price", pos.get("entry_price", 0.0))
+                    # coerce entry_price if needed
                     entry_price = _to_float_safe(pos.get("entry_price")) or 0.0
                     exit_pending = pos.get("exit_pending", False)
+
                     if exit_pending:
                         continue
 
@@ -738,6 +644,7 @@ def price_poll_exit_loop() -> None:
 
                     # Trailing stop active logic (defensive)
                     if pos.get("trail_active", False):
+                        # coerce peak_price safely
                         def _to_float_safe_local(x):
                             try:
                                 if isinstance(x, (list, tuple)) and len(x) > 0:
@@ -761,13 +668,16 @@ def price_poll_exit_loop() -> None:
                             position_manager.set_peak_price(symbol, direction, price)
                             peak_price_val = price
 
+                        # compute trailing SL defensively using the engine function which supports symbol-based lookup too
                         try:
                             trailing_sl = calculate_scalper_trailing_stop(symbol, peak_price_val, direction)
                         except Exception as e:
+                            # This guards against unexpected type errors coming from bad data types
                             logger.log_error(f"❌ Trailing calculation error for {symbol}_{direction}: {e}; skipping trailing this cycle.")
                             logger.log_debug(traceback.format_exc())
                             continue
 
+                        # ensure trailing_sl is numeric
                         trailing_sl_val = _to_float_safe(trailing_sl)
                         if trailing_sl_val is None:
                             logger.log_debug(f"{symbol}_{direction} trailing_sl could not be computed (None or invalid). Skipping trailing exit check.")

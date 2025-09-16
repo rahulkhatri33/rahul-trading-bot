@@ -1,11 +1,13 @@
 # core/position_manager.py
 """
-Position manager module (patched minimal changes).
+Position manager module — minimal safe patch to fix partial TP / SL exit issues.
 
-Key minimal change to avoid circular import:
- - do NOT import core.analytics.trade_recorder at module level.
- - import append_lifecycle / snapshot_equity inside the functions where they are used.
-Other behavior: numeric coercion, sanity checks, safe partial TP handling preserved.
+Key changes:
+ - Always trim executed quantities with get_trimmed_quantity when updating local sizes.
+ - Poll order status after creating partial/SL orders to confirm executedQty before updating local state.
+ - If remainder after partial is below one step (or becomes zero after trimming), treat as fully closed and remove local position.
+ - Add better Discord alerts in important branches (failed fills, full-close, simulated dry-run).
+ - No deletion of existing public API functions; function names/signatures preserved.
 """
 
 import json
@@ -17,15 +19,22 @@ from typing import Dict, Any, Optional
 
 from binance.exceptions import BinanceAPIException
 
-# Keep existing imports used elsewhere in your repo
+# keep existing imports used in your repo
 from utils.exchange import client
 from utils.discord_logger import send_discord_log
 from core.logger import global_logger as logger
 from core.config import get_config
-from core.symbol_precision import get_trimmed_quantity
+
+# symbol precision helpers (canonical)
+from core.symbol_precision import get_trimmed_quantity, get_trimmed_price
 
 POSITIONS_FILE_DEFAULT = "open_positions.json"
 BINANCE_MISSING_GRACE_SECONDS = 30  # seconds
+
+# Polling configuration for order confirmation (tweak to taste)
+_ORDER_POLL_INTERVAL = 0.5   # seconds between polls
+_ORDER_POLL_TIMEOUT = 8.0    # seconds total wait for fills before giving up
+_MIN_EXECUTED_TO_ACCEPT = 1e-8  # numerical tolerance to treat executedQty > 0
 
 
 def _to_float_safe(v):
@@ -39,6 +48,26 @@ def _to_float_safe(v):
         return float(v)
     except Exception:
         return None
+
+
+def _sum_fills_qty(fills):
+    """Return the sum of qty in a fills array (string or numeric qtys)."""
+    try:
+        if not fills:
+            return 0.0
+        s = 0.0
+        for f in fills:
+            if isinstance(f, dict):
+                q = f.get("qty") or f.get("quantity") or f.get("executedQty")
+            else:
+                q = None
+            try:
+                s += float(q or 0.0)
+            except Exception:
+                pass
+        return s
+    except Exception:
+        return 0.0
 
 
 class PositionManager:
@@ -99,6 +128,9 @@ class PositionManager:
         For long: stop_loss < entry_price < take_profit
         For short: stop_loss > entry_price > take_profit
         Also require entry_price > 0 and size > 0.
+
+        This version accepts stop_loss == entry_price when an explicit breakeven flag or
+        tp1/awaiting_trail flags indicate the SL was intentionally moved to breakeven.
         """
         try:
             if not isinstance(pos, dict):
@@ -106,7 +138,7 @@ class PositionManager:
 
             config = get_config()
             scalper_settings = config.get("scalper_settings", {}) if isinstance(config, dict) else {}
-            min_sl_pct = scalper_settings.get("min_sl_distance_pct", 0.0005)  # default 0.05%
+            min_sl_pct = scalper_settings.get("min_sl_distance_pct", 0.0005)
 
             direction = pos.get("direction")
             entry = _to_float_safe(pos.get("entry_price"))
@@ -114,50 +146,74 @@ class PositionManager:
             tp = _to_float_safe(pos.get("take_profit"))
             size = _to_float_safe(pos.get("size") or pos.get("qty"))
 
-            if entry is None or sl is None or tp is None or size is None:
+            if entry is None or size is None:
                 return False
-            if entry <= 0 or size <= 0:
+            if entry <= 0 or (size is None or size <= 0):
                 return False
 
-            # require minimum SL distance relative to entry to avoid zero-distance SL
-            min_sl_abs = abs(entry) * float(min_sl_pct)
+            # compute minimum absolute SL distance
+            try:
+                min_sl_abs = abs(entry) * float(min_sl_pct)
+            except Exception:
+                min_sl_abs = abs(entry) * 0.0005
+
+            # determine if breakeven is explicitly allowed for this position
+            try:
+                tp1_triggered = bool(pos.get('tp1_triggered', False))
+                awaiting_trail = bool(pos.get('awaiting_trail_activation', False))
+                breakeven_flag = bool(pos.get('breakeven', False))
+            except Exception:
+                tp1_triggered = False
+                awaiting_trail = False
+                breakeven_flag = False
+
+            allow_breakeven = tp1_triggered or awaiting_trail or breakeven_flag
+
+            # tolerance for floating comparisons
+            EPS = max(abs(entry) * 1e-8, 1e-12)
 
             if direction == "long":
-                if not (sl < entry):
-                    return False
-                if not (entry < tp):
-                    return False
-                if (entry - sl) < min_sl_abs:
-                    # SL too close to entry, treat as insane
-                    return False
-                return True
-            elif direction == "short":
-                if not (sl > entry):
-                    return False
-                if not (entry > tp):
-                    return False
-                if (sl - entry) < min_sl_abs:
-                    return False
-                return True
-            else:
+                # normal valid case: sl < entry < tp (if tp provided)
+                if sl is not None and tp is not None:
+                    if (sl + EPS < entry) and (entry + EPS < tp):
+                        # ensure minimum SL distance
+                        if (entry - sl) < min_sl_abs:
+                            return False
+                        return True
+
+                # allow breakeven when flagged (sl approximately equals entry)
+                if allow_breakeven and sl is not None:
+                    if abs(sl - entry) <= max(EPS, abs(entry) * 1e-8):
+                        if tp is None or (entry + EPS < tp):
+                            return True
+
+                # otherwise invalid
+                logger.log_debug(f"is_position_sane failed for long: entry={entry}, sl={sl}, tp={tp}, allow_breakeven={allow_breakeven}")
                 return False
-        except Exception:
-            logger.log_debug(f"is_position_sane exception for pos: {pos}")
+            else:
+                # short side checks
+                if sl is not None and tp is not None:
+                    if (sl - EPS > entry) and (entry - EPS > tp):
+                        if (sl - entry) < min_sl_abs:
+                            return False
+                        return True
+
+                if allow_breakeven and sl is not None:
+                    if abs(sl - entry) <= max(EPS, abs(entry) * 1e-8):
+                        if tp is None or (entry - EPS > tp):
+                            return True
+
+                logger.log_debug(f"is_position_sane failed for short: entry={entry}, sl={sl}, tp={tp}, allow_breakeven={allow_breakeven}")
+                return False
+
+        except Exception as e:
+            logger.log_error(f"is_position_sane error: {e}")
+            logger.log_debug(traceback.format_exc())
             return False
 
     def add_position(self, symbol: str, direction: str, position_data: Dict[str, Any]) -> None:
-        """Add a position; coerce numeric fields and avoid persisting invalid entry_price.
-
-        Minimal auto-correction: if stop_loss is too close to entry (under configured min_sl_distance_pct),
-        we auto-apply a safer fallback SL distance (fallback_sl_pct) and log a warning. This prevents SL ≈ entry issues.
-        """
         key = f"{symbol}_{direction}"
         try:
-            # Coerce numeric fields we care about
-            for k in ("entry_price", "stop_loss", "take_profit", "peak_price", "size", "qty", "partial_tp_price", "partial_tp_size"):
-                if k in position_data:
-                    position_data[k] = _to_float_safe(position_data[k])
-
             # harmonize naming: prefer 'size' but allow 'qty' input
             if "size" not in position_data and "qty" in position_data:
                 try:
@@ -223,19 +279,11 @@ class PositionManager:
             logger.log_debug(traceback.format_exc())
 
     def update_position(self, symbol: str, direction: str, updates: Dict[str, Any]) -> None:
-        """
-        Update numeric fields with coercion. If creating a new position via update, ensure entry_price>0 and size>0.
-        """
         key = f"{symbol}_{direction}"
         try:
-            # coerce updates
             coerced_updates = {}
-            for k, v in updates.items():
-                if k in ("entry_price", "stop_loss", "take_profit", "peak_price", "size", "qty", "partial_tp_price", "partial_tp_size", "trailing_sl"):
-                    coerced_updates[k] = _to_float_safe(v)
-                else:
-                    coerced_updates[k] = v
-
+            for k, v in (updates or {}).items():
+                coerced_updates[k] = v
             if key in self.positions:
                 # update existing
                 # harmonize qty->size if provided
@@ -346,10 +394,16 @@ class PositionManager:
         Only execute if partial_tp_price is numeric and lies between entry and TP.
         This function uses targeted checks (not full is_position_sane) so partials
         can still run when full-sanity would reject (e.g., entry_price_estimated).
+
+        Important behavior (minimal changes):
+        - place market reduceOnly order for partial TP and poll order status until executedQty observed or timeout.
+        - update local position using executed_qty trimmed with get_trimmed_quantity.
+        - if remainder after trimming is effectively zero, treat as fully closed (call close_position).
+        - send Discord alerts on success/failure/timeouts.
         """
-        # Lazy import to avoid circular import with core.analytics.trade_recorder
+        # Lazy import to avoid circular import with analytics/trade_recorder
         try:
-            from core.analytics.trade_recorder import append_lifecycle, snapshot_equity
+            from core.analytics.trade_recorder import append_lifecycle, snapshot_equity  # may not exist; fine if import fails
         except Exception:
             append_lifecycle = None
             snapshot_equity = None
@@ -371,7 +425,7 @@ class PositionManager:
                 logger.log_debug(f"{key} skipped partial TP: insufficient numeric data (ptp={ptp_price}, ptp_size={ptp_size}, entry={entry}, tp={tp}, size={size})")
                 return
 
-            # Ensure partial TP is between entry and final TP (direction-aware)
+            # ensure partial price lies between entry and final TP (basic sanity)
             if direction == "long":
                 if not (entry < ptp_price < tp):
                     logger.log_warning(f"{key} invalid partial_tp_price {ptp_price} not between entry {entry} and tp {tp}; skipping partial TP.")
@@ -387,103 +441,280 @@ class PositionManager:
 
                 config = get_config()
                 live_mode = config.get("live_mode", False)
-                if live_mode:
-                    try:
-                        close_side = "SELL" if direction == "long" else "BUY"
-                        try:
-                            pos_mode = client.futures_get_position_mode()
-                            is_hedge = bool(pos_mode.get("dualSidePosition", False))
-                        except Exception:
-                            logger.log_warning(f"{symbol} ⚠️ Could not determine position mode: assuming one-way.")
-                            is_hedge = False
-
-                        qty_to_close = float(ptp_size)
-                        # trim qty to symbol precision
-                        qty_trimmed = get_trimmed_quantity(symbol, qty_to_close)
-                        if qty_trimmed <= 0:
-                            logger.log_warning(f"{symbol} ⚠️ partial_tp qty trimmed to <=0 (requested {qty_to_close}) - aborting partial close attempt.")
-                            # Try to fetch remaining from Binance or mark for reconciliation outside this function
-                            return
-
-                        order_payload = {
-                            "symbol": symbol,
-                            "side": close_side,
-                            "type": "MARKET",
-                            "quantity": qty_trimmed,
-                        }
-                        if is_hedge:
-                            order_payload["positionSide"] = "LONG" if direction == "long" else "SHORT"
-                        else:
-                            order_payload["reduceOnly"] = True
-
-                        logger.log_info(f"{symbol} [partial_tp] placing order payload: {order_payload}")
-                        resp = client.futures_create_order(**order_payload)
-                        logger.log_info(f"{symbol} ✅ Live partial TP executed resp: {resp}")
-
-                        executed = 0.0
-                        try:
-                            executed = float(resp.get("executedQty") or resp.get("filledQty") or resp.get("origQty") or 0.0)
-                        except Exception:
-                            executed = 0.0
-                        logger.log_info(f"{symbol} [partial_tp] executed_qty={executed}")
-
-                        try:
-                            current_size = float(position.get("size", 0.0))
-                            new_size = max(0.0, current_size - executed)
-                            position["size"] = new_size
-                            position["partial_tp_done"] = True
-                            position["stop_loss"] = float(position.get("entry_price", price))
-                            self.save_positions()
-                            logger.log_info(f"{symbol} [partial_tp] updated local position size from {current_size} -> {new_size}")
-                        except Exception as e:
-                            logger.log_error(f"{symbol} ❌ Failed to update local position after partial TP: {e}")
-                            logger.log_debug(traceback.format_exc())
-
-                        try:
-                            if append_lifecycle:
-                                append_lifecycle(
-                                    {
-                                        "timestamp": datetime.utcnow().isoformat(),
-                                        "symbol": symbol,
-                                        "direction": direction,
-                                        "event_type": "TP1_PARTIAL",
-                                        "price": ptp_price,
-                                        "qty": executed,
-                                        "entry_price": entry,
-                                        "pnl": (ptp_price - entry) * executed if direction == "long" else (entry - ptp_price) * executed,
-                                        "reason": "TP1_partial_hit",
-                                    }
-                                )
-                            else:
-                                # fallback file write
-                                with open("trade_exit_fallback.csv", "a") as f:
-                                    f.write(f"{datetime.utcnow().isoformat()},{symbol},TP1_PARTIAL,{ptp_price},{executed},{entry},TP1_partial_hit\n")
-                        except Exception:
-                            logger.log_debug("append_lifecycle or fallback write for partial TP failed.")
-
-                        try:
-                            if snapshot_equity:
-                                snapshot_equity(tag="TP1_EXIT")
-                        except Exception:
-                            # snapshot_equity may be unavailable if import failed; ignore
-                            pass
-
-                        try:
-                            send_discord_log(f"{symbol} 🎯 Partial TP filled: closed {executed}, moved SL to BE")
-                        except Exception:
-                            logger.log_debug("Discord notify for partial TP failed.")
-                    except Exception as e:
-                        logger.log_error(f"{symbol} ❌ Failed to execute partial TP: {e}")
-                        logger.log_debug(traceback.format_exc())
-                else:
-                    try:
-                        position["stop_loss"] = float(position.get("entry_price", price))
+                if not live_mode:
+                    # dry-run behavior: emulate the partial close and mark breakeven
+                    executed_sim = get_trimmed_quantity(symbol, float(ptp_size), price=ptp_price)
+                    new_size_sim = max(0.0, float(size) - float(executed_sim))
+                    new_size_sim_trimmed = get_trimmed_quantity(symbol, new_size_sim, price=price)
+                    if new_size_sim_trimmed <= 0:
+                        position["last_partial_order_id"] = "DRY_RUN"
+                        position["last_partial_order_status"] = "FILLED"
+                        position["last_partial_executed_qty"] = executed_sim
                         position["partial_tp_done"] = True
                         self.save_positions()
+                        self.close_position(symbol, direction)
+                        send_discord_log(f"{symbol} (DRY) Partial TP simulated and fully closed: executed={executed_sim}", level="INFO")
+                        return
+                    position["last_partial_order_id"] = "DRY_RUN"
+                    position["last_partial_order_status"] = "FILLED"
+                    position["last_partial_executed_qty"] = executed_sim
+                    position["size"] = new_size_sim_trimmed
+                    position["partial_tp_done"] = True
+                    position["tp1_triggered"] = True
+                    position["stop_loss"] = float(entry)
+                    position["breakeven"] = True
+                    position["breakeven_set_at"] = int(time.time())
+                    self.save_positions()
+                    send_discord_log(f"{symbol} (DRY) Partial TP simulated: executed={executed_sim}, new_size={new_size_sim_trimmed}", level="INFO")
+                    return
+
+                # LIVE mode: attempt partial close
+                try:
+                    close_side = "SELL" if direction == "long" else "BUY"
+                    # determine hedge/one-way
+                    try:
+                        pos_mode = client.futures_get_position_mode()
+                        is_hedge = bool(pos_mode.get("dualSidePosition", False))
                     except Exception:
-                        logger.log_debug("Failed to mark partial_tp_done in dry run.")
+                        is_hedge = False
+
+                    qty_to_close = float(ptp_size)
+                    qty_trimmed = get_trimmed_quantity(symbol, qty_to_close, price=ptp_price)
+                    if qty_trimmed <= 0:
+                        logger.log_warning(f"{symbol} ⚠️ partial_tp qty trimmed to <=0 (requested {qty_to_close}) - aborting partial close attempt.")
+                        send_discord_log(f"{symbol} ⚠️ Partial TP aborted: qty trimmed to 0 (requested {qty_to_close}).", level="WARNING")
+                        return
+
+                    # Use MARKET reduceOnly for immediate partial (works for one-way); when hedge, set positionSide.
+                    order_payload = {
+                        "symbol": symbol,
+                        "side": close_side,
+                        "type": "MARKET",
+                        "quantity": qty_trimmed,
+                        "reduceOnly": True
+                    }
+                    if is_hedge:
+                        order_payload.pop("reduceOnly", None)
+                        order_payload["positionSide"] = "LONG" if direction == "long" else "SHORT"
+
+                    logger.log_info(f"{symbol} [partial_tp] placing MARKET reduceOnly payload: {order_payload}")
+                    resp = client.futures_create_order(**order_payload)
+                    logger.log_info(f"{symbol} [partial_tp] create response: {resp}")
+
+                    # Poll for executedQty up to timeout
+                    order_id = resp.get("orderId") or resp.get("clientOrderId")
+                    executed = 0.0
+                    last_status = resp.get("status", "UNKNOWN")
+
+                    # immediate fills sometimes included in response
+                    if isinstance(resp, dict) and resp.get("executedQty"):
+                        executed = float(resp.get("executedQty") or 0.0)
+                    elif isinstance(resp, dict) and resp.get("fills"):
+                        executed = _sum_fills_qty(resp.get("fills"))
+
+                    if order_id:
+                        start_ts = time.time()
+                        while time.time() - start_ts < _ORDER_POLL_TIMEOUT:
+                            try:
+                                o = client.futures_get_order(symbol=symbol, orderId=order_id)
+                                last_status = o.get("status", last_status)
+                                executed = _to_float_safe(o.get("executedQty") or 0.0) or executed
+                                # fallback to fills if executedQty missing
+                                if (not executed or executed <= 0) and o.get("fills"):
+                                    executed = _sum_fills_qty(o.get("fills"))
+                                logger.log_debug(f"{symbol} poll order {order_id} status={last_status} executedQty={executed}")
+                                if executed > _MIN_EXECUTED_TO_ACCEPT or str(last_status).upper() == "FILLED":
+                                    break
+                            except Exception as e:
+                                logger.log_debug(f"{symbol} poll error: {e}")
+                            time.sleep(_ORDER_POLL_INTERVAL)
+
+                    executed = float(executed or 0.0)
+                    executed_trimmed = get_trimmed_quantity(symbol, executed, price=ptp_price)
+
+                    logger.log_info(f"{symbol} [partial_tp] final executed_qty={executed}, executed_trimmed={executed_trimmed}, intended={qty_trimmed}")
+
+                    if executed_trimmed <= 0:
+                        status_upper = str(last_status).upper() if last_status else "UNKNOWN"
+                        msg = f"{symbol} ⚠ Partial TP order not filled (status={status_upper}, executed={executed})."
+                        logger.log_warning(msg)
+                        send_discord_log(msg, level="WARNING")
+                        # try cancel attempt (best-effort)
+                        if order_id:
+                            try:
+                                client.futures_cancel_order(symbol=symbol, orderId=order_id)
+                            except Exception:
+                                pass
+                        return
+
+                    # Compute new_size = current_size - executed_trimmed, trimmed to step
+                    current_size = float(position.get("size", 0.0))
+                    new_size_raw = max(0.0, current_size - executed_trimmed)
+                    new_size_trimmed = get_trimmed_quantity(symbol, new_size_raw, price=price)
+
+                    logger.log_debug(f"{symbol} [partial_tp] current_size={current_size}, new_size_raw={new_size_raw}, new_size_trimmed={new_size_trimmed}")
+
+                    # minimal step detection
+                    minimal_step = get_trimmed_quantity(symbol, 1e-12, price=price)
+
+                    # If after trimming new_size becomes zero or less than one step, treat as fully closed
+                    if new_size_trimmed <= 0 or new_size_trimmed < minimal_step:
+                        logger.log_info(f"{symbol} ✅ Partial TP resulted in full close (executed {executed_trimmed} ≈ {current_size}).")
+                        send_discord_log(f"{symbol} ✅ Position fully closed by partial TP. executed={executed_trimmed}, previous_size={current_size}", level="INFO")
+                        position["last_partial_order_id"] = order_id
+                        position["last_partial_order_status"] = str(last_status)
+                        position["last_partial_executed_qty"] = executed_trimmed
+                        position["last_partial_executed_price"] = None
+                        position["partial_tp_done"] = True
+                        self.save_positions()
+                        self.close_position(symbol, direction)
+                        return
+
+                    # Otherwise update local position size to new_size_trimmed and mark partial done
+                    position["last_partial_order_id"] = order_id
+                    position["last_partial_order_status"] = str(last_status)
+                    position["last_partial_executed_qty"] = executed_trimmed
+                    position["last_partial_executed_price"] = None
+                    position["size"] = new_size_trimmed
+                    position["partial_tp_done"] = True
+                    position["tp1_triggered"] = True
+                    try:
+                        position["stop_loss"] = float(entry)
+                        position["breakeven"] = True
+                        position["breakeven_set_at"] = int(time.time())
+                    except Exception:
+                        pass
+
+                    self.save_positions()
+                    send_discord_log(f"{symbol} ✅ Partial TP executed: executed={executed_trimmed}, new_size={new_size_trimmed}", level="INFO")
+                    logger.log_info(f"{symbol} Partial-TP processed: executed={executed_trimmed}, new_size={new_size_trimmed}")
+
+                except BinanceAPIException as e:
+                    logger.log_error(f"{symbol} ❌ Partial TP BinanceAPIException: {e}")
+                    send_discord_log(f"{symbol} ❌ Partial TP BinanceAPIException: {e}", level="ERROR")
+                except Exception as e:
+                    logger.log_error(f"{symbol} ❌ Partial TP unexpected error: {e}")
+                    logger.log_debug(traceback.format_exc())
+                    send_discord_log(f"{symbol} ❌ Partial TP unexpected error: {e}", level="ERROR")
         except Exception as e:
             logger.log_error(f"{symbol} ❌ Partial TP check error: {e}")
+            logger.log_debug(traceback.format_exc())
+
+    def check_stop_loss(self, symbol: str, direction: str, price: float) -> None:
+        """
+        Triggered when live price crosses the stop_loss level.
+        Attempts to close remaining size reliably, polls for fill and updates local state.
+        """
+        try:
+            key = f"{symbol}_{direction}"
+            pos = self.positions.get(key)
+            if not pos:
+                return
+
+            sl = _to_float_safe(pos.get("stop_loss"))
+            size = _to_float_safe(pos.get("size") or pos.get("qty"))
+            if sl is None or size is None:
+                return
+
+            triggered = (direction == "long" and price <= sl) or (direction == "short" and price >= sl)
+            if not triggered:
+                return
+
+            logger.log_info(f"{symbol} ⛔ Stop-loss triggered at {sl} — attempting to close remaining size {size}")
+            config = get_config()
+            live_mode = config.get("live_mode", False)
+            if not live_mode:
+                # simulate close in dry-run
+                pos["last_stop_order_id"] = "DRY_RUN"
+                pos["last_stop_order_status"] = "FILLED"
+                pos["last_stop_executed_qty"] = get_trimmed_quantity(symbol, size, price=price)
+                self.save_positions()
+                self.close_position(symbol, direction)
+                send_discord_log(f"{symbol} (DRY) SL simulated closed size {pos['last_stop_executed_qty']}", level="INFO")
+                return
+
+            try:
+                close_side = "SELL" if direction == "long" else "BUY"
+                qty_trimmed = get_trimmed_quantity(symbol, float(size), price=price)
+                if qty_trimmed <= 0:
+                    send_discord_log(f"{symbol} ⚠ SL abort: remaining qty trimmed to zero", level="WARNING")
+                    return
+
+                # prefer MARKET reduceOnly for immediate exit
+                order_payload = {
+                    "symbol": symbol,
+                    "side": close_side,
+                    "type": "MARKET",
+                    "quantity": qty_trimmed,
+                    "reduceOnly": True,
+                }
+                # hedge mode handling
+                try:
+                    pos_mode = client.futures_get_position_mode()
+                    is_hedge = bool(pos_mode.get("dualSidePosition", False))
+                except Exception:
+                    is_hedge = False
+                if is_hedge:
+                    order_payload.pop("reduceOnly", None)
+                    order_payload["positionSide"] = "LONG" if direction == "long" else "SHORT"
+
+                resp = client.futures_create_order(**order_payload)
+                order_id = resp.get("orderId") or resp.get("clientOrderId")
+                executed = 0.0
+                # quick check resp
+                if isinstance(resp, dict) and resp.get("executedQty"):
+                    executed = float(resp.get("executedQty") or 0.0)
+                elif isinstance(resp, dict) and resp.get("fills"):
+                    executed = _sum_fills_qty(resp.get("fills"))
+
+                if order_id:
+                    start = time.time()
+                    while time.time() - start < _ORDER_POLL_TIMEOUT:
+                        try:
+                            o = client.futures_get_order(symbol=symbol, orderId=order_id)
+                            executed_candidate = _to_float_safe(o.get("executedQty") or 0.0) or 0.0
+                            if (not executed_candidate or executed_candidate <= 0) and o.get("fills"):
+                                executed_candidate = _sum_fills_qty(o.get("fills"))
+                            if executed_candidate and executed_candidate > executed:
+                                executed = executed_candidate
+                            if executed > _MIN_EXECUTED_TO_ACCEPT or str(o.get("status","")).upper() == "FILLED":
+                                break
+                        except Exception as e:
+                            logger.log_debug(f"{symbol} SL poll error: {e}")
+                        time.sleep(_ORDER_POLL_INTERVAL)
+
+                executed_trimmed = get_trimmed_quantity(symbol, float(executed), price=price) if executed else 0.0
+                logger.log_info(f"{symbol} SL executed {executed} -> trimmed {executed_trimmed}")
+
+                if executed_trimmed <= 0:
+                    send_discord_log(f"{symbol} ⚠ SL order not filled (executed={executed}). Manual reconciliation required.", level="ERROR")
+                    try:
+                        pos["last_stop_order_id"] = order_id
+                        pos["last_stop_order_status"] = resp.get("status") if isinstance(resp, dict) else None
+                        pos["last_stop_resp"] = resp
+                        self.save_positions()
+                    except Exception:
+                        pass
+                    return
+
+                send_discord_log(f"{symbol} ⛔ SL executed, closed {executed_trimmed}", level="ERROR")
+                pos["last_stop_order_id"] = order_id
+                pos["last_stop_order_status"] = resp.get("status") if isinstance(resp, dict) else "FILLED"
+                pos["last_stop_executed_qty"] = executed_trimmed
+                self.save_positions()
+                self.close_position(symbol, direction)
+                return
+
+            except Exception as e:
+                logger.log_error(f"{symbol} ❌ SL execution failed: {e}")
+                logger.log_debug(traceback.format_exc())
+                try:
+                    send_discord_log(f"{symbol} ❌ SL execution failed: {e}", level="ERROR")
+                except Exception:
+                    pass
+
+        except Exception as e:
+            logger.log_error(f"{symbol} ❌ check_stop_loss error: {e}")
             logger.log_debug(traceback.format_exc())
 
     def sync_with_binance(self, symbol: str = None) -> None:
@@ -562,9 +793,9 @@ class PositionManager:
                                 "entry_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                             },
                         )
-                    synced_positions[f"{sym}_{side}"] = self.positions.get(f"{sym}_{side}", {})
+                    synced_positions[f"{sym}_{side}"] = self.positions.get(f"{sym}_{side}")
 
-                # For each direction, if local exists but Binance doesn't, mark missing and only remove after grace.
+                # When remote says there is no position but we have local state, mark missing and remove after grace
                 for direction in ["long", "short"]:
                     key = f"{sym}_{direction}"
                     if key in self.positions:
